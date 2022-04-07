@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="FileUpload" content="File Upload service.">
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- page css -->
+    <link href="./css/custom/index.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Fontawesome JS-->
+    <script src="https://kit.fontawesome.com/4cd539e702.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/custom/index.js" crossorigin="anonymous"></script>
+
+    <title>FileUpload</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="py-2 border-bottom">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a class="btn nav-link px-2" aria-current="page">Home
+                        <i class="fas fa-regular fa-house"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn nav-link px-2">Settings
+                        <i class="fas fa-regular fa-gear fa-spin-hover"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav">
+                <li class="nav-item">
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+
+                        </div>
+                        <div class="col-auto">
+                            <!-- File type -->
+                            <div class="dropdown">
+                                <a href="#" class="d-block dropdown-toggle" id="dropdownType1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-circle-chevron-down"></i>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-dark mx-0 border-0 shadow" style="width: 220px;"
+                                    aria-labelledby="dropdownType1">
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fas fa-regular fa-book"></i> Documents
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fas fa-regular fa-photo-film text-primary"></i>
+                                            Photos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fas fa-regular fa-film"></i> Movies
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fas fa-regular fa-music text-warning"></i> Music
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fa-solid fa-gamepad"></i>
+                                            Games
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex gap-2 align-items-center btn">
+                                            <i class="fa-solid fa-trash-can text-danger"></i>
+                                            Trash
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="dropdown text-end">
+                                <a href="#" class="d-block link-light text-decoration-none dropdown-toggle ml-2"
+                                    id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    <img src="https://github.com/blacksmithop.png" alt="blaksmithop" width="42"
+                                        height="42" class="rounded-circle">
+                                </a>
+                                <ul class="dropdown-menu text-small bg-white" aria-labelledby="dropdownUser1">
+                                    <li><a class="dropdown-item" href="#">Login
+                                            <i class="fas fa-solid fa-arrow-right-to-bracket"></i> </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Edit
+                                            <i class="fas fa-thin fa-pen-to-square"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout
+                                            <i class="fas fa-thin fa-right-from-bracket"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="darkmode ">
+                                <div class="light fa-solid fa-moon"></div>
+                                <div class="dark text-warning fa-solid fa-sun"></div>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="app-body">
+
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="py-1 fixed-bottom">
+        <ul class="nav justify-content-center border-bottom">
+            <li class="nav-item"><a href="https://github.com/blacksmithop" class="nav-link px-2" target="_blank">Source
+                    <i class="fa-solid fa-code"></i>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About
+                    <i class="fas fa-regular fa-address-card"></i>
+                </a></li>
+        </ul>
+        <p class="text-center"><i class="fas fa-duotone fa-copyright pt-3"></i> 2022 BlackSmithOP
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
