@@ -9,13 +9,9 @@ body {
 	height: 80vh;
 	overflow-y: scroll;
 	width: 100%;
-	overflow:auto;
+	overflow: hidden;
 }
 
-/* Toast button */
-#liveToastBtn {
-	border-radius: 20px;
-}
 /* Dark mode */
 div.darkmode {
 	display: inline-block;
@@ -23,12 +19,14 @@ div.darkmode {
 	cursor: pointer;
 }
 
-.nav-link , .fa-circle-chevron-down {
+.nav-link,
+.fa-circle-chevron-down {
 	color: black;
 }
 
-body.dark .darkmode .light, body:not(.dark) .darkmode .dark {
-display: none;
+body.dark .darkmode .light,
+body:not(.dark) .darkmode .dark {
+	display: none;
 }
 
 
@@ -37,95 +35,20 @@ display: none;
 	font-size: 18px;
 }
 
-/* Siderbar */
-.sidebar {
-	border-radius: 35px;
-}
+
 
 /* Dropdown arrow*/
 .dropdown-toggle::after {
-    display:none;
+	display: none;
 }
 
-/* Login form */
-.login-form .form-control {
-	width: 75%;
-}
 
 /* Type picker (search) */
 .type-picker {
 	width: 10vw;
 }
 
-/* Files list overflow */
-
-.files-list {
-	height: 30vh;
-}
-
-/* Alert overhaul */
-.alert-success.new {
-	width: 50vw;
-	border: none;
-	border-left: 4px solid green;
-	border-radius: 30;
-	background: #fff;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
-  }
-
-/* Screen size */
-
-/* Files list */
-.app-files-list {
-	width: 25vw;
-}
-
-@media screen and (max-width: 900px) {
-	.app-files-list {
-		width: 40vw;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.app-files-list {
-		width: 45vw;
-	}
-}
-/* Animations */
-
-/* Rotate icon on hover */
-
-.fa-spin-hover:hover {
-	animation: fa-spin 6s infinite linear;
-}
-
-.toggle-btns:hover {
-
-	animation: fa-spin 6s infinite linear;
-}
-
-.toggle-btns {
-	transform: scale(1.5); 
-}
-
-@-webkit-keyframes fa-spin {
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg)
-	}
-	100% {
-		-webkit-transform: rotate(359deg);
-		transform: rotate(359deg)
-	}
-}
-
-@keyframes fa-spin {
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg)
-	}
-	100% {
-		-webkit-transform: rotate(359deg);
-		transform: rotate(359deg)
-	}
+/* Cards */
+.card-img-top {
+	width: 15vw;
 }
