@@ -10,6 +10,7 @@ body {
 	overflow-y: scroll;
 	width: 100%;
 	overflow-x: hidden;
+	padding: 10px 10px 10px 10px;
 }
 
 /* Dark mode */
@@ -36,19 +37,17 @@ body:not(.dark) .darkmode .dark {
 }
 
 
-
-/* Dropdown arrow*/
-.dropdown-toggle::after {
-	display: none;
-}
-
-
 /* Type picker (search) */
 .type-picker {
 	width: 10vw;
 }
 
 /* Cards */
+
+.card-group {
+	width: fit-content;
+}
+
 .card-img-top {
 	width: 15vw;
 }
@@ -79,4 +78,18 @@ a:active {
 .img-preview {
 	width: 150%;
 	height: 200%;
+}
+
+/* Smaller screens*/
+
+@media only screen and (max-width: 957px) {
+	.btn {
+		margin-bottom: 10px;
+	}
+}
+
+/* accordion */
+
+.accordion [aria-expanded="false"] {
+	background-color: #eee;
 }
