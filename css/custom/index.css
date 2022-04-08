@@ -9,7 +9,7 @@ body {
 	height: 80vh;
 	overflow-y: scroll;
 	width: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 /* Dark mode */
@@ -73,4 +73,10 @@ a:active {
 
 .card-header i {
 	font-size: larger;
+}
+
+/*preview*/
+.img-preview {
+	width: 150%;
+	height: 200%;
 }
