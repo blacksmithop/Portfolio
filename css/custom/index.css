@@ -52,3 +52,25 @@ body:not(.dark) .darkmode .dark {
 .card-img-top {
 	width: 15vw;
 }
+
+/* anchor */
+a {
+	text-decoration: none;
+
+}
+
+a:link,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+/* Card header*/
+
+.card-header {
+	font-size: large;
+}
+
+.card-header i {
+	font-size: larger;
+}
