@@ -32,6 +32,8 @@ toggleDarkMode = function () {
     $(".btn a").toggleClass("text-white text-dark");
 
     //accordion
-    $(".accordion-body").toggleClass("text-warning");
+    $(".accordion-button").toggleClass("bg-dark bg-light");
+    $(".accordion-button").toggleClass("text-light text-dark");
+    $(".accordion-body").toggleClass("yellow-border");
 
 }

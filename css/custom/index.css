@@ -33,9 +33,13 @@ body:not(.dark) .darkmode .dark {
 /* list items */
 
 .list-group-item {
-	padding: 0;
 	border: 0;
 	background-color: inherit;
+}
+
+/* Stack: items */
+.group-items {
+	display: block;
 }
 
 /* nav items */
@@ -80,6 +84,8 @@ a:hover,
 a:active {
 	text-decoration: none;
 }
+
+
 
 /* Card header*/
 
@@ -139,8 +145,14 @@ a:active {
 	border-width: 6px;
 }
 
+/* border colors */
+
 .white-border {
 	border-color: white;
+}
+
+.yellow-border {
+	border-color: #ffc107;
 }
 
 .accordion-button:focus {
