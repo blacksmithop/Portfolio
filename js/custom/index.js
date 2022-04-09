@@ -1,9 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function (event) {
-
     toggleDarkMode();
     $(".darkmode").click(toggleDarkMode);
-
 
 });
 
@@ -32,4 +30,8 @@ toggleDarkMode = function () {
     //buttons
     $(".btn").toggleClass("btn-dark btn-light");
     $(".btn a").toggleClass("text-white text-dark");
+
+    //accordion
+    $(".accordion-body").toggleClass("text-warning");
+
 }
