@@ -4,7 +4,15 @@
 
 
 ### Features 
+- [x] Favicon, meta tags
+
 - [x] Responsive header
 - [x] Responsive footer
-- [x] Dark mode toggle
-- [ ] Responsive content
+- [x] Responsive cards (project)
+
+- [x] Dark mode
+- [x] Sectioned content (accordion)
+- [ ] Autoplay videos (gif -> mp4) as preview
+- [ ] Tech stack 
+
+- [ ] About me (modal)
