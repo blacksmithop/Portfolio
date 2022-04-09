@@ -20,6 +20,11 @@ div.darkmode {
 	cursor: pointer;
 }
 
+/* Modal */
+.modal [aria-hidden="true"] {
+	display: none;
+}
+
 .nav-link,
 .fa-circle-chevron-down {
 	color: black;
@@ -38,9 +43,7 @@ body:not(.dark) .darkmode .dark {
 }
 
 /* Stack: items */
-.group-items {
-	display: block;
-}
+
 
 /* nav items */
 .nav-link {
@@ -103,6 +106,8 @@ a:active {
 	height: 40vh;
 }
 
+
+
 .card-preview {
 	width: 40vw;
 	height: 60vh;
@@ -110,11 +115,8 @@ a:active {
 
 /* Smaller screens*/
 
-@media only screen and (max-width: 957px) {
-	.btn {
-		margin-bottom: 10px;
-	}
-
+.btn {
+	margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 580px) {
@@ -159,6 +161,7 @@ a:active {
 	box-shadow: none;
 	border-color: rgba(0, 0, 0, .125);
 }
+
 
 .accordion [aria-expanded="true"] {
 	border-top-left-radius: 25px;
