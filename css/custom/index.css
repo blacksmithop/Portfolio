@@ -31,9 +31,7 @@ body:not(.dark) .darkmode .dark {
 }
 
 /* list items */
-.accordion-collapse {
-	background-color: #343a40;
-}
+.accordion-collapse {}
 
 .list-group-item {
 	padding: 0;
@@ -123,11 +121,24 @@ a:active {
 }
 
 /* accordion */
-.accordion-button,
-.accordion-collapse {
-	border-radius: 35px;
+
+.accordion-button {
+	width: fit-content;
+	height: fit-content;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+	border-color: rgba(0, 0, 0, .125);
+}
+
+.accordion [aria-expanded="true"] {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 .accordion [aria-expanded="false"] {
 	background-color: #eee;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
