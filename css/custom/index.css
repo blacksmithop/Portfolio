@@ -30,6 +30,16 @@ body:not(.dark) .darkmode .dark {
 	display: none;
 }
 
+/* list items */
+.accordion-collapse {
+	background-color: #343a40;
+}
+
+.list-group-item {
+	padding: 0;
+	border: 0;
+	background-color: inherit;
+}
 
 /* nav items */
 .nav-link {
@@ -46,6 +56,16 @@ body:not(.dark) .darkmode .dark {
 
 .card-group {
 	width: fit-content;
+}
+
+.card-group .card:first-child {
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.card-group .card:last-child {
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 .card-img-top {
@@ -86,9 +106,27 @@ a:active {
 	.btn {
 		margin-bottom: 10px;
 	}
+
+}
+
+@media only screen and (max-width: 580px) {
+	.card-group .card {
+		border-radius: 25px;
+	}
+
+}
+
+
+/* button */
+.btn {
+	border-radius: 15px;
 }
 
 /* accordion */
+.accordion-button,
+.accordion-collapse {
+	border-radius: 35px;
+}
 
 .accordion [aria-expanded="false"] {
 	background-color: #eee;

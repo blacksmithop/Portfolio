@@ -58,13 +58,8 @@
     <nav class="py-2 border-bottom">
         <div class="container d-flex flex-wrap">
             <ul class="nav me-auto">
-                <li class="nav-item"><a class="btn nav-link px-2" aria-current="page">Home
+                <li class="nav-item"><a class="btn nav-link px-2" href="#" aria-current="page">Home
                         <i class="fas fa-regular fa-house"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn nav-link px-2">Other
-                        <i class="fas fa-regular fa-gear fa-spin-hover"></i>
                     </a>
                 </li>
             </ul>
@@ -129,309 +124,385 @@
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
+                        <!-- Card grid-->
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col">
+                                <!-- Card group Angular-->
+                                <div class="card-group">
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-angular text-danger"></i> Angular
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Library Catalogue</h5>
+                                            <p class="card-text">Add, update and remove books and authors from the
+                                                library
+                                                catalogue
+                                                using
+                                                authorized CRUD options. MEAN and responsive it is built using the
+                                                bootstrap
+                                                framework.
+                                            </p>
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://github.com/blacksmithop/AngularLibraryApp"
+                                                    target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#catalogueModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="catalogueModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/4Yn5F4d/dn-To-XYJo-KP.gif">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-node-js text-success"></i> Node.js
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">CRUD Api</h5>
+                                            <p class="card-text">Node.js app to handle CRUD operations. Data stored in a
+                                                mongoose
+                                                instance</p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://github.com/blacksmithop/AngularLibraryBackend"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Card group Sockets-->
+                                <div class="card-group">
+
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-angular text-danger"></i> Angular
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chatroom Client</h5>
+                                            <p class="card-text">MEAN stack chatroom with chat history, media support,
+                                                rooms
+                                                and
+                                                personal
+                                                messaging powered by sockets.</p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://github.com/blacksmithop/CantTalkBusy"
+                                                    target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#chatroomModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="chatroomModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/KwHDhww/ckfzit0-AGu.gif">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-solid fa-bolt text-warning"></i> Sockets
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Server</h5>
+                                            <p class="card-text">Node.js server that handles client requests. Built with
+                                                socket.io
+                                                and
+                                                powered
+                                                by express.js.</p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://github.com/blacksmithop/CantTalkBusy"
+                                                    target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Card group frontend-->
+                                <div class="card-group">
+
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-html5 text-primary"></i> HTML5
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Todo List</h5>
+                                            <p class="card-text">Stay on track with a todo list.
+                                                Built in html5 and powered by jQuery. Add new tasks,
+                                                mark them as complete and remove obsolete tasks.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://gitlab.com/blacksmithop/full-stack-certification/-/tree/master/public/pages/todo"
+                                                    target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#todoModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="todoModal" tabindex="-1" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/7jH3RXf/todo.gif">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> FastAPI (REST)
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Weather</h5>
+                                            <p class="card-text">Visualises the detailed weather forecast provided by
+                                                openweathermap,
+                                                built in python using FastAPI.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://github.com/blacksmithop/Seasonally"
+                                                    target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#weatherModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="weatherModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/DYtxCpK/seasonally.png">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Card group programs-->
+                                <div class="card-group">
+
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> Pygame (Game)
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Snake</h5>
+                                            <p class="card-text">The classic game of Snake built in Pygame.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://gitlab.com/blacksmithop/snek"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#snakeModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="snakeModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/hdCQ4h5/pygame-snake.gif">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> Pillow (image processing)
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Imgen</h5>
+                                            <p class="card-text">Image manipulation api service built in aiohttp and
+                                                powered
+                                                by
+                                                Pillow.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://github.com/blacksmithop/imgen"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="imageModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/gj42DDh/imagemanip.gif">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Card group documentation-->
+                                <div class="card-group">
+
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> Aiohttp (async)
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bot</h5>
+                                            <p class="card-text">A bot to manage lobbies in the social deduction game
+                                                Mafia.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://github.com/blacksmithop/mafiaggbot"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-markdown text-warning"></i> MkDocs (markdown)
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Documentation</h5>
+                                            <p class="card-text">Markdown friendly documentation.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://blacksmithop.github.io/MafiaggBot/"
+                                                    target="_blank">Docs
+                                                    <i class="fa-solid fa-book"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Card group programs-->
+                                <div class="card-group">
+
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> Webscraping
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Metadata extraction</h5>
+                                            <p class="card-text">Get metadata for your favorite light novel from
+                                                certified sources.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white"
+                                                    href="https://bitbucket.org/BlackSmithOP/novelmetadata/src/main/"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+                                            <div class="btn btn-dark" data-bs-toggle="modal"
+                                                data-bs-target="#metadataModal">
+                                                Preview <i class="fa-solid fa-eye"></i>
+
+                                                <div class="modal fade" id="metadataModal" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-body">
+                                                            <img class="img-preview"
+                                                                src="https://i.ibb.co/V2DWjrc/image.png">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card border-success mb-3 text-dark">
+                                        <div class="card-header bg-transparent border-success">
+                                            <i class="fa-brands fa-python text-success"></i> Dataset
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Top tech queries</h5>
+                                            <p class="card-text">Dataset generation for a NLP tool to suggest solution
+                                                for tech queries.
+                                                Obtained from popular stack websites (StackOverflow, AskUbuntu, etc).
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-success">
+                                            <div class="btn btn-dark">
+                                                <a class="text-white" href="https://github.com/blacksmithop/DeepLI"
+                                                    target="_blank">Source
+                                                    <i class="fa-solid fa-code-fork"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Card grid-->
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                        <div class="col">
-                            <!-- Card group Angular-->
-                            <div class="card-group">
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-angular text-danger"></i> Angular
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Library Catalogue</h5>
-                                        <p class="card-text">Add, update and remove books and authors from the library
-                                            catalogue
-                                            using
-                                            authorized CRUD options. MEAN and responsive it is built using the bootstrap
-                                            framework.
-                                        </p>
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white"
-                                                href="https://github.com/blacksmithop/AngularLibraryApp"
-                                                target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                        <div class="btn btn-dark" data-bs-toggle="modal"
-                                            data-bs-target="#catalogueModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="catalogueModal" tabindex="-1"
-                                                aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/4Yn5F4d/dn-To-XYJo-KP.gif">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-node-js text-success"></i> Node.js
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">CRUD Api</h5>
-                                        <p class="card-text">Node.js app to handle CRUD operations. Data stored in a
-                                            mongoose
-                                            instance</p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white"
-                                                href="https://github.com/blacksmithop/AngularLibraryBackend"
-                                                target="_blank">Source
-                                                <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <!-- Card group Sockets-->
-                            <div class="card-group">
-
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-angular text-danger"></i> Angular
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Chatroom Client</h5>
-                                        <p class="card-text">MEAN stack chatroom with chat history, media support, rooms
-                                            and
-                                            personal
-                                            messaging powered by sockets.</p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://github.com/blacksmithop/CantTalkBusy"
-                                                target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                        <div class="btn btn-dark" data-bs-toggle="modal"
-                                            data-bs-target="#chatroomModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="chatroomModal" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/KwHDhww/ckfzit0-AGu.gif">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-solid fa-bolt text-warning"></i> Sockets
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Server</h5>
-                                        <p class="card-text">Node.js server that handles client requests. Built with
-                                            socket.io
-                                            and
-                                            powered
-                                            by express.js.</p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://github.com/blacksmithop/CantTalkBusy"
-                                                target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <!-- Card group frontend-->
-                            <div class="card-group">
-
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-html5 text-primary"></i> HTML5
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Todo List</h5>
-                                        <p class="card-text">Stay on track with a todo list.
-                                            Built in html5 and powered by jQuery. Add new tasks,
-                                            mark them as complete and remove obsolete tasks.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white"
-                                                href="https://gitlab.com/blacksmithop/full-stack-certification/-/tree/master/public/pages/todo"
-                                                target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-
-                                        <div class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#todoModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="todoModal" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/7jH3RXf/todo.gif">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-python text-success"></i> FastAPI (REST)
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Weather</h5>
-                                        <p class="card-text">Visualises the detailed weather forecast provided by
-                                            openweathermap,
-                                            built in python using FastAPI.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://github.com/blacksmithop/Seasonally"
-                                                target="_blank">Source <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                        <div class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#weatherModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="weatherModal" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/DYtxCpK/seasonally.png">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <!-- Card group programs-->
-                            <div class="card-group">
-
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-python text-success"></i> Pygame (Game)
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Snake</h5>
-                                        <p class="card-text">The classic game of Snake built in Pygame.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://gitlab.com/blacksmithop/snek"
-                                                target="_blank">Source
-                                                <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                        <div class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#snakeModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="snakeModal" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/hdCQ4h5/pygame-snake.gif">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-python text-success"></i> Pillow (image processing)
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Imgen</h5>
-                                        <p class="card-text">Image manipulation api service built in aiohttp and powered
-                                            by
-                                            Pillow.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://github.com/blacksmithop/imgen"
-                                                target="_blank">Source
-                                                <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-                                        <div class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imageModal">
-                                            Preview <i class="fa-solid fa-eye"></i>
-
-                                            <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-body">
-                                                        <img class="img-preview"
-                                                            src="https://i.ibb.co/gj42DDh/imagemanip.gif">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <!-- Card group documentation-->
-                            <div class="card-group">
-
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-python text-success"></i> Aiohttp (async)
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Bot</h5>
-                                        <p class="card-text">A bot to manage lobbies in the social deduction game Mafia.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://github.com/blacksmithop/mafiaggbot"
-                                                target="_blank">Source
-                                                <i class="fa-solid fa-code-fork"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="card border-success mb-3 text-dark">
-                                    <div class="card-header bg-transparent border-success">
-                                        <i class="fa-brands fa-markdown text-warning"></i> MkDocs (markdown)
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Documentation</h5>
-                                        <p class="card-text">Markdown friendly documentation.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer bg-transparent border-success">
-                                        <div class="btn btn-dark">
-                                            <a class="text-white" href="https://blacksmithop.github.io/MafiaggBot/"
-                                                target="_blank">Docs
-                                                <i class="fa-solid fa-book"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </li>
 
