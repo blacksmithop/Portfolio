@@ -102,15 +102,15 @@ a:active {
 
 /*preview*/
 .img-preview {
-	width: 60vw;
-	height: 40vh;
+	width: 50vw;
+	height: 50vh;
 }
 
 
 
 .card-preview {
-	width: 40vw;
-	height: 60vh;
+	width: 30vw;
+	height: 50vh;
 }
 
 /* Smaller screens*/
