@@ -44,12 +44,10 @@ body:not(.dark) .darkmode .dark {
 
 /* Stack: items */
 
-
 /* nav items */
 .nav-link {
 	font-size: 18px;
 }
-
 
 /* Type picker (search) */
 .type-picker {
@@ -79,7 +77,6 @@ body:not(.dark) .darkmode .dark {
 /* anchor */
 a {
 	text-decoration: none;
-
 }
 
 a:link,
@@ -87,8 +84,6 @@ a:hover,
 a:active {
 	text-decoration: none;
 }
-
-
 
 /* Card header*/
 
@@ -99,14 +94,6 @@ a:active {
 .card-header i {
 	font-size: larger;
 }
-
-/*preview*/
-.img-preview {
-	width: 50vw;
-	height: 50vh;
-}
-
-
 
 .card-preview {
 	width: 30vw;
@@ -123,9 +110,7 @@ a:active {
 	.card-group .card {
 		border-radius: 25px;
 	}
-
 }
-
 
 /* button */
 .btn {
@@ -159,9 +144,8 @@ a:active {
 
 .accordion-button:focus {
 	box-shadow: none;
-	border-color: rgba(0, 0, 0, .125);
+	border-color: rgba(0, 0, 0, 0.125);
 }
-
 
 .accordion [aria-expanded="true"] {
 	border-top-left-radius: 25px;
