@@ -10,7 +10,14 @@
 - [x] Responsive cards (project)
 - [x] Dark mode
 - [x] Sectioned content (accordion)
-- [ ] Autoplay videos (gif -> mp4) as preview
-- [ ] Tech stack 
+- [ ] Autoplay videos (convert gifs to mp4) as preview
+- [ ] Styling for accordion buttons
+- [ ] Navbar links to sections
+- [ ] Add resume
+- [ ] Add about me (modal)
+- [ ] Content for tech stack 
+- [ ] Fix user image dropdown
+- [ ] Add contact section
+- [ ] Social links, repository websites etc 
 
 - [ ] About me (modal)
