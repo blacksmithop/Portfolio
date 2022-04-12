@@ -61,7 +61,10 @@ a:active {
 /* nav items */
 .nav-link {
 	font-size: 18px;
+	color: white;
 }
+
+
 
 /* list items */
 
@@ -69,6 +72,8 @@ a:active {
 	border: 0;
 	background-color: inherit;
 }
+
+/* dropdown avatar */
 
 
 /* Cards */

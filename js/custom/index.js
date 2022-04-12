@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    //toggleDarkMode();
+    toggleDarkMode();
     $(".darkmode").click(toggleDarkMode);
 
 });
@@ -14,10 +14,8 @@ toggleDarkMode = function () {
                     background: "white",
                 }
         );
-    //nav links
-    $("ul > li > a").toggleClass("text-dark text-white");
     //anchors with icons
-    $(".icon").toggleClass("text-dark text-white");
+    $(".nav-item .icon").toggleClass("text-dark text-white");
     //card
     $(".card").toggleClass("bg-dark bg-light");
     $(".card").toggleClass("text-dark text-white");
