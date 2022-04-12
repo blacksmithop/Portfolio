@@ -7,10 +7,10 @@ body {
 .app-body {
 	position: relative;
 	height: 80vh;
-	overflow-y: scroll;
 	width: 100%;
-	overflow-x: hidden;
 	padding: 10px 10px 10px 10px;
+	overflow-x: hidden;
+	overflow-y: visible;
 }
 
 /* Dark mode */
@@ -156,4 +156,42 @@ a:active {
 /* footer */
 footer ul {
 	opacity: 0.9;
+}
+
+/* icon tests*/
+.icon::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.copyright::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f1f9";
+	font-weight: 400;
+}
+
+.keyboard::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f11c";
+	font-weight: 400;
+}
+
+.stack::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f24d";
+	font-weight: 400;
+}
+
+.home::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f0c8";
+	font-weight: 400;
+}
+
+/* invert colors */
+.invert {
+	mix-blend-mode: difference;
 }
