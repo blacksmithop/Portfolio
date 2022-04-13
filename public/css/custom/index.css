@@ -73,8 +73,10 @@ a:active {
 	background-color: inherit;
 }
 
-/* dropdown avatar */
-
+/* dropdown  */
+.dropdown-menu {
+	overflow: hidden;
+}
 
 /* Cards */
 .card-group {
@@ -194,9 +196,4 @@ footer ul {
 	font-family: "Font Awesome 5 Free";
 	content: "\f0c8";
 	font-weight: 400;
-}
-
-/* invert colors */
-.invert {
-	mix-blend-mode: difference;
 }
