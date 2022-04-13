@@ -1,0 +1,202 @@
+/* Body */
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.app-body {
+	position: relative;
+	height: 80vh;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+/* Dark mode */
+div.darkmode {
+	display: inline-block;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+body.dark .darkmode .light,
+body:not(.dark) .darkmode .dark {
+	display: none;
+}
+
+/* Modal */
+.modal [aria-hidden="true"] {
+	display: none;
+}
+
+/* anchor */
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+
+/* border colors */
+.white-border {
+	border-color: white;
+}
+
+.yellow-border {
+	border-color: #ffc107;
+}
+
+/* navbar */
+
+.nav-link,
+.fa-circle-chevron-down {
+	color: black;
+}
+
+/* nav items */
+.nav-link {
+	font-size: 18px;
+	color: white;
+}
+
+
+
+/* list items */
+
+.list-group-item {
+	border: 0;
+	background-color: inherit;
+}
+
+/* dropdown avatar */
+
+
+/* Cards */
+.card-group {
+	width: fit-content;
+}
+
+.card-group .card:first-child {
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.card-group .card:last-child {
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.card-img-top {
+	width: 15vw;
+}
+
+/* Card header */
+.card-header {
+	font-size: large;
+}
+
+.card-header i {
+	font-size: larger;
+}
+
+.card-preview {
+	width: 30vw;
+	height: 50vh;
+}
+
+/* screen size */
+@media only screen and (max-width: 580px) {
+	.card-group .card {
+		border-radius: 25px;
+	}
+}
+
+
+/* button */
+.btn {
+	border-radius: 15px;
+}
+
+/* Smaller screens*/
+
+.btn {
+	margin-bottom: 10px;
+}
+
+/* accordion */
+.accordion-button {
+	width: fit-content;
+	height: fit-content;
+	border-top-style: solid;
+	border-width: 6px;
+}
+
+.accordion-body {
+	border-left-style: solid;
+	border-top-style: solid;
+	border-width: 6px;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+	border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion [aria-expanded="true"] {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.accordion [aria-expanded="false"] {
+	background-color: #eee;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/* footer */
+footer ul {
+	opacity: 0.9;
+}
+
+/* icon tests*/
+.icon::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.copyright::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f1f9";
+	font-weight: 400;
+}
+
+.keyboard::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f11c";
+	font-weight: 400;
+}
+
+.stack::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f24d";
+	font-weight: 400;
+}
+
+.home::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f0c8";
+	font-weight: 400;
+}
+
+/* invert colors */
+.invert {
+	mix-blend-mode: difference;
+}
