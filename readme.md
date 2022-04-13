@@ -19,5 +19,6 @@
 - [ ] Fix user image dropdown
 - [ ] Add contact section
 - [ ] Social links, repository websites etc 
+- [ ] Fix app-body height when multiple accordions are open
 
 - [ ] About me (modal)

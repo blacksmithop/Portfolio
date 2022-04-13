@@ -47,7 +47,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light mb-4">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Portfolio</a>
             <!--Collapses into a dropdown on smaller-->
@@ -59,7 +59,7 @@
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link icon home" href="#"> Home
+                        <a class="nav-link icon home" href="#"> About
                         </a>
                     </li>
                     <li class="nav-item">
@@ -175,9 +175,11 @@
                                                 <div class="modal fade mx-auto" id="catalogueModal" tabindex="-1"
                                                     aria-hidden="true">
                                                     <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-fluid"
-                                                                src="https://i.ibb.co/4Yn5F4d/dn-To-XYJo-KP.gif">
+                                                        <div class="modal-body ratio ratio-4x3">
+                                                            <video autoplay loop muted playsinline>
+                                                                <source src="./assets/video/libraryAngular.webm"
+                                                                    type="video/webm">
+                                                            </video>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -229,9 +231,11 @@
                                                 <div class="modal fade" id="chatroomModal" tabindex="-1"
                                                     aria-hidden="true">
                                                     <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-fluid"
-                                                                src="https://i.ibb.co/KwHDhww/ckfzit0-AGu.gif">
+                                                        <div class="modal-body ratio ratio-4x3">
+                                                            <video autoplay loop muted playsinline>
+                                                                <source src="./assets/video/chatRoomAngular.webm"
+                                                                    type="video/webm">
+                                                            </video>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -283,9 +287,11 @@
                                                 data-bs-target="#todoModal"> Preview <i class="fa-solid fa-eye"></i>
                                                 <div class="modal fade" id="todoModal" tabindex="-1" aria-hidden="true">
                                                     <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-fluid"
-                                                                src="https://i.ibb.co/7jH3RXf/todo.gif">
+                                                        <div class="modal-body ratio ratio-4x3">
+                                                            <video autoplay loop muted playsinline>
+                                                                <source src="./assets/video/todoHtml.webm"
+                                                                    type="video/webm">
+                                                            </video>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -346,9 +352,11 @@
                                                 <div class="modal fade" id="snakeModal" tabindex="-1"
                                                     aria-hidden="true">
                                                     <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-fluid"
-                                                                src="https://i.ibb.co/hdCQ4h5/pygame-snake.gif">
+                                                        <div class="modal-body ratio ratio-4x3">
+                                                            <video autoplay loop muted playsinline>
+                                                                <source src="./assets/video/snakePygame.webm"
+                                                                    type="video/webm">
+                                                            </video>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -375,9 +383,11 @@
                                                 <div class="modal fade" id="imageModal" tabindex="-1"
                                                     aria-hidden="true">
                                                     <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-fluid"
-                                                                src="https://i.ibb.co/gj42DDh/imagemanip.gif">
+                                                        <div class="modal-body ratio ratio-4x3">
+                                                            <video autoplay loop muted playsinline>
+                                                                <source src="./assets/video/imgenPillow.webm"
+                                                                    type="video/webm">
+                                                            </video>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -495,47 +505,49 @@
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <!-- Card grid-->
-                        <div class="row row-cols-6 row-cols-lg-6 
+                        <div class="container-fluid">
+                            <div class="row row-cols-6 row-cols-lg-6 
                             row-cols-md-4 row-cols-sm-3 g-4">
-                            <div class="col">
-                                <span style="font-size: 48px; color: lightgreen;">
-                                    <i class="fa-brands fa-python"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px; color: gold;">
-                                    <i class="fa-brands fa-node-js"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px;">
-                                    <i class="text-danger fa-brands fa-angular"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px; color: darkorange">
-                                    <i class="fa-brands fa-html5"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px; color: dodgerblue">
-                                    <i class="fa-brands fa-css3-alt"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px;">
-                                    <i class="fa-brands fa-js text-warning"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px; color: green">
-                                    <i class="fa-brands fa-git"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span style="font-size: 48px;">
-                                    <i class="fa-solid fa-database text-danger"></i>
-                                </span>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: lightgreen;">
+                                        <i class="fa-brands fa-python"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: gold;">
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="text-danger fa-brands fa-angular"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: darkorange">
+                                        <i class="fa-brands fa-html5"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: dodgerblue">
+                                        <i class="fa-brands fa-css3-alt"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="fa-brands fa-js text-warning"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: green">
+                                        <i class="fa-brands fa-git"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="fa-solid fa-database text-danger"></i>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -548,9 +560,9 @@
     <footer class="fixed-bottom bg-dark text-light">
         <ul class="nav justify-content-center border-bottom">
             <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" target="_blank"
-                    class="nav-link px-2">Source</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2">Contact</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2">Resume</a></li>
+                    class="nav-link">Source</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
         </ul>
         <p class="icon copyright text-center nav-link"> Abhinav</p>
     </footer>

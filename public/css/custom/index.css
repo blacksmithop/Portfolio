@@ -7,10 +7,10 @@ body {
 .app-body {
 	position: relative;
 	height: 80vh;
-	width: 100%;
+	width: 100vw;
 	padding: 10px 10px 10px 10px;
 	overflow-x: hidden;
-	overflow-y: visible;
+	overflow-y: scroll;
 }
 
 /* Dark mode */
@@ -41,7 +41,6 @@ a:active {
 	text-decoration: none;
 }
 
-
 /* border colors */
 .white-border {
 	border-color: white;
@@ -52,7 +51,6 @@ a:active {
 }
 
 /* navbar */
-
 .nav-link,
 .fa-circle-chevron-down {
 	color: black;
@@ -64,10 +62,11 @@ a:active {
 	color: white;
 }
 
-
+.nav-link:hover {
+	color: #ffc107;
+}
 
 /* list items */
-
 .list-group-item {
 	border: 0;
 	background-color: inherit;
@@ -106,11 +105,6 @@ a:active {
 	font-size: larger;
 }
 
-.card-preview {
-	width: 30vw;
-	height: 50vh;
-}
-
 /* screen size */
 @media only screen and (max-width: 580px) {
 	.card-group .card {
@@ -118,14 +112,12 @@ a:active {
 	}
 }
 
-
 /* button */
 .btn {
 	border-radius: 15px;
 }
 
 /* Smaller screens*/
-
 .btn {
 	margin-bottom: 10px;
 }
@@ -135,7 +127,9 @@ a:active {
 	width: fit-content;
 	height: fit-content;
 	border-top-style: solid;
+	border-color: coral;
 	border-width: 6px;
+	margin-bottom: 15px;
 }
 
 .accordion-body {
@@ -161,10 +155,6 @@ a:active {
 }
 
 /* footer */
-footer ul {
-	opacity: 0.9;
-}
-
 /* icon tests*/
 .icon::before {
 	display: inline-block;
