@@ -19,6 +19,8 @@ toggleDarkMode = function () {
     //card
     $(".card").toggleClass("bg-dark bg-light");
     $(".card").toggleClass("text-dark text-white");
+    //about me
+    $(".about-me").toggleClass("text-dark text-white");
     //buttons
     $(".btn").toggleClass("btn-dark btn-light");
     $(".btn a").toggleClass("text-white text-dark");
