@@ -1,0 +1,34 @@
+/*Cards*/
+.card-group {
+    width: fit-content;
+}
+
+.card-group .card:first-child {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card-group .card:last-child {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-img-top {
+    width: 15vw;
+}
+
+/*Card header*/
+.card-header {
+    font-size: large;
+}
+
+.card-header i {
+    font-size: larger;
+}
+
+/*screen size*/
+@media only screen and (max-width: 580px) {
+    .card-group .card {
+        border-radius: 25px;
+    }
+}

@@ -1,0 +1,15 @@
+/*navbar*/
+.nav-link,
+.fa-circle-chevron-down {
+    color: black;
+}
+
+/*nav items*/
+.nav-link {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}

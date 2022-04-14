@@ -1,0 +1,31 @@
+/*accordion*/
+.accordion-button {
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.accordion-body {
+    border-top-style: solid;
+    border-radius: 35px;
+    border-left-style: solid;
+    border-width: 6px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: SlateBlue;
+}
+
+.accordion [aria-expanded="true"] {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.accordion [aria-expanded="false"] {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

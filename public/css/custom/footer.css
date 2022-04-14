@@ -1,0 +1,33 @@
+/*footer*/
+/*icon tests*/
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.copyright::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1f9";
+    font-weight: 400;
+}
+
+.keyboard::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11c";
+    font-weight: 400;
+}
+
+.stack::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f24d";
+    font-weight: 400;
+}
+
+.home::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c8";
+    font-weight: 400;
+}
