@@ -4,6 +4,7 @@
     height: fit-content;
     border-style: solid;
     border-width: 6px;
+    display: block;
 }
 
 .accordion-body {

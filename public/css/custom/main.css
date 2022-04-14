@@ -39,3 +39,8 @@ body:not(.dark) .darkmode .dark {
 .brightness-dim {
     filter: brightness(0.8);
 }
+
+/*Modal*/
+.modal [aria-hidden="true"] {
+    display: none;
+}

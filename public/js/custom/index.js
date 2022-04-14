@@ -1,61 +1,43 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-
     toggleDarkMode();
     const toggleMode = document.getElementsByClassName("darkmode")[0]
     toggleMode.addEventListener("click", toggleDarkMode);
 });
 
-
 toggleDarkMode = function () {
-    let body = document.body;
     // darkmode
-    toggleClass(['light', 'dark'], body);
-
-    let appBody = document.querySelector(".app-body");
+    toggleClass(['light', 'dark'], document.body);
     // brightness
-    toggleClass(['brightness-dim', 'brightness-full'], appBody);
-
-    /* card */
-    let card = document.querySelectorAll('.card');
-    card.forEach((e) => {
+    toggleClass(['brightness-dim', 'brightness-full'], document.querySelector(".app-body"));
+    //card
+    document.querySelectorAll('.card').forEach((e) => {
         toggleBgColor(e);
         toggleTextColor(e);
     });
-
-    /* buttons */
-    let btn = document.querySelectorAll(".btn");
-    btn.forEach((e) => {
+    // buttons
+    document.querySelectorAll(".btn").forEach((e) => {
         toggleClass(['btn-light', 'btn-dark'], e);
         toggleTextColor(e);
     });
-    /*anchors*/
-    let anchor = document.querySelectorAll(".btn a");
-    anchor.forEach((e) => {
+    //anchors
+    document.querySelectorAll(".btn a").forEach((e) => {
         toggleTextColor(e);
     });
-    //.toggleClass("text-white text-dark");
-
-    //toggleBgColor(card);
-    //toggleTextColor(card);
-
-    document.getElementsByClassName("about-me")[0]
-    //.toggleClass("text-dark text-white");
-
-    document.getElementsByClassName("btn")[0]
-    //.toggleClass("btn-dark btn-light");
-
-
-    document.getElementsByClassName("accordion-button")[0]
-    //.toggleClass("bg-dark bg-light");
-    document.getElementsByClassName("accordion-button")[0]
-    //.toggleClass("text-dark text-light");
-    document.getElementsByClassName("accordion-button")[0]
+    //about me
+    toggleTextColor(document.querySelector(".about-me"));
+    //accordion
+    let accordionBtn = document.querySelectorAll(".accordion button");
+    accordionBtn.forEach((e) => {
+        toggleBgColor(e);
+        toggleTextColor(e);
+        toggleClass(['blue-border', 'purple-border'], e);
+    });
     //.classList.toggle("blue-border");
-    document.getElementsByClassName("accordion-body")[0]
+    //document.querySelector("accordion-body")[0]
     //.classList.toggle("yellow-border");
 
-    document.getElementsByClassName("list-group")[0]
+    //document.getElementsByClassName("list-group")[0]
     //.classList.toggle("blue-border");
 }
 

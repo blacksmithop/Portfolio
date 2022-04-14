@@ -7,15 +7,14 @@
     <!--meta-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Abhinav's Portfolio website">
+    <meta name="description" content="Abhinav KM's Portfolio website">
     <meta name="robots" content="index, follow">
 
-    <title>Portfolio, know me better</title>
+    <title>Portfolio</title>
 
     <!--Load from disk / fallback to (cdn)-->
     <!--Bootstrap-->
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css"
-        onerror="this.onerror=null;this.href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';this.removeAttribute('integrity');this.removeAttribute('crossorigin');" />
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
     <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
     <script>
         if (!window.bootstrap) { // Bootstrap files not present
@@ -28,15 +27,7 @@
     <!--Fontawesomse-->
     <link href="./css/fontawesome/all.css" rel="stylesheet">
 
-    <!--jQuery-->
-    <script src="./js/jquery/jquery.js"></script>
-    <script>
-        if (!window.jQuery) { // jQuery files not present
-            var newScript = document.createElement("script");
-            newScript.setAttribute("src", "https://code.jquery.com/jquery-3.6.0.min.js");
-            document.getElementsByTagName("head")[0].appendChild(newScript);
-        }
-    </script>
+
     <!--body, darkmode-->
     <link href="./css/custom/main.css" rel="stylesheet">
     <!--navbar-->
@@ -51,7 +42,6 @@
     <link href="./css/custom/list.css" rel="stylesheet">
     <!--overrides, custom-->
     <link href="./css/custom/extras.css" rel="stylesheet">
-
     <!--js-->
     <script src="./js/custom/index.js" crossorigin="anonymous"></script>
 </head>
@@ -124,16 +114,18 @@
             <!--about-->
             <li class="list-group-item">
                 <div class="accordion accordion-flush" id="flush-headingOne">
-                    <button class="accordion-button fs-4 bg-dark text-light" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseAbout" aria-expanded="true"
+                    <button class="accordion-button blue-border fs-4 bg-dark text-light" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout" aria-expanded="true"
                         aria-controls="flush-collapseAbout">About</button>
                 </div>
                 <div id="flush-collapseAbout" class="accordion-collapse collapse show"
                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <div class="container-fluid about-me">
-                            <p class="display-4">Hello!</p>
-                            <p class="lead fs-4">I'm a software developer based in <code>India</code>. I enjoy creating
+                        <div class="container-fluid about-me text-dark">
+                            <p class="h1">Hello!</p>
+                            <p class="lead fs-5">I'm a software developer based in
+                                <code>India</code>. I
+                                enjoy creating
                                 applications that are intuitive and easy to use. I'm currently working on my
                                 <code>Portfolio website</code>.
                             </p>
@@ -144,7 +136,7 @@
             <!--projects-->
             <li class=" list-group-item">
                 <div class="accordion accordion-flush" id="flush-headingOne">
-                    <button class="accordion-button collapsed fs-4 bg-dark text-light" type="button"
+                    <button class="accordion-button blue-border collapsed fs-4 bg-dark text-light" type="button"
                         data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects" aria-expanded="false"
                         aria-controls="flush-collapseProjects">Projects</button>
                 </div>
@@ -494,7 +486,7 @@
             <!--stack-->
             <li class="list-group-item">
                 <div class="accordion accordion-flush" id="flush-headingOne">
-                    <button class="accordion-button collapsed fs-4 bg-dark text-light" type="button"
+                    <button class="accordion-button blue-border collapsed fs-4 bg-dark text-light" type="button"
                         data-bs-toggle="collapse" data-bs-target="#flush-collapseStack" aria-expanded="false"
                         aria-controls="flush-collapseStack">Stack</button>
                 </div>

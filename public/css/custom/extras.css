@@ -39,6 +39,10 @@ a:active {
     border-color: #ffc107;
 }
 
-.blue-border {
+.purple-border {
     border-color: RebeccaPurple;
+}
+
+.blue-border {
+    border-color: royalblue;
 }
