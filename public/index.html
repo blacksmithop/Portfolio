@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Abhinav KM's Portfolio website">
     <meta name="robots" content="index, follow">
-
     <title>Portfolio</title>
 
     <!--Load from disk / fallback to (cdn)-->
@@ -17,16 +16,14 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
     <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
     <script>
-        if (!window.bootstrap) { // Bootstrap files not present
+        if (!window.bootstrap) {
             var newScript = document.createElement("script");
             newScript.setAttribute("src", "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js");
             document.getElementsByTagName("head")[0].appendChild(newScript);
         }
     </script>
-
-    <!--Fontawesomse-->
+    <!--Fontawesome-->
     <link href="./css/fontawesome/all.css" rel="stylesheet">
-
 
     <!--body, darkmode-->
     <link href="./css/custom/main.css" rel="stylesheet">
@@ -166,17 +163,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light text-li" data-bs-toggle="modal"
                                                 data-bs-target="#catalogueModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade mx-auto" id="catalogueModal" tabindex="-1"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body ratio ratio-4x3">
-                                                            <video autoplay loop muted playsinline>
-                                                                <source src="./assets/video/libraryAngular.webm"
-                                                                    type="video/webm">
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -221,17 +208,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light" data-bs-toggle="modal"
                                                 data-bs-target="#chatroomModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade" id="chatroomModal" tabindex="-1"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body ratio ratio-4x3">
-                                                            <video autoplay loop muted playsinline>
-                                                                <source src="./assets/video/chatRoomAngular.webm"
-                                                                    type="video/webm">
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -277,16 +254,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light" data-bs-toggle="modal"
                                                 data-bs-target="#todoModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade" id="todoModal" tabindex="-1" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body ratio ratio-4x3">
-                                                            <video autoplay loop muted playsinline>
-                                                                <source src="./assets/video/todoHtml.webm"
-                                                                    type="video/webm">
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -307,15 +275,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light" data-bs-toggle="modal"
                                                 data-bs-target="#weatherModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade" id="weatherModal" tabindex="-1"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body">
-                                                            <img class="img-thumbnail"
-                                                                src="./assets/img/seasonally.webp">
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -340,17 +300,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light" data-bs-toggle="modal"
                                                 data-bs-target="#snakeModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade" id="snakeModal" tabindex="-1"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body ratio ratio-4x3">
-                                                            <video autoplay loop muted playsinline>
-                                                                <source src="./assets/video/snakePygame.webm"
-                                                                    type="video/webm">
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -371,17 +321,7 @@
                                             </div>
                                             <div class="btn btn-dark text-light" data-bs-toggle="modal"
                                                 data-bs-target="#imageModal">Preview <i class="fa-solid fa-eye"></i>
-                                                <div class="modal fade" id="imageModal" tabindex="-1"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-body ratio ratio-4x3">
-                                                            <video autoplay loop muted playsinline>
-                                                                <source src="./assets/video/imgenPillow.webm"
-                                                                    type="video/webm">
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -542,6 +482,7 @@
                 </div>
             </li>
         </ul>
+
     </div>
 
     <!--footer-->
@@ -554,6 +495,59 @@
         </ul>
         <p class="icon copyright text-center nav-link"> Abhinav</p>
     </footer>
+    <!--modals-->
+    <div class="modal fade mx-auto" id="catalogueModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body ratio ratio-4x3">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/video/libraryAngular.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="chatroomModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body ratio ratio-4x3">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/video/chatRoomAngular.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="todoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body ratio ratio-4x3">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/video/todoHtml.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="weatherModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <img class="img-thumbnail" src="./assets/img/seasonally.webp">
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="snakeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body ratio ratio-4x3">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/video/snakePygame.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body ratio ratio-4x3">
+                <video autoplay loop muted playsinline>
+                    <source src="./assets/video/imgenPillow.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

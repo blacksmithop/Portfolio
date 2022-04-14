@@ -30,6 +30,10 @@ a:active {
     display: none;
 }
 
+.modal-backdrop {
+    z-index: -1;
+}
+
 /*Custom border*/
 .white-border {
     border-color: white;
