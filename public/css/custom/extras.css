@@ -50,3 +50,7 @@ a:active {
 .blue-border {
     border-color: royalblue;
 }
+
+.dark-border {
+    border-color: #292b2c;
+}

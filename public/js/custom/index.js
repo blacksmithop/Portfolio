@@ -33,9 +33,10 @@ toggleDarkMode = function () {
         toggleTextColor(e);
         toggleClass(['blue-border', 'purple-border'], e);
     });
-    //.classList.toggle("blue-border");
-    //document.querySelector("accordion-body")[0]
-    //.classList.toggle("yellow-border");
+    document.querySelectorAll(".accordion-body").forEach((e) => {
+        toggleClass(['black-border', 'yellow-border'], e);
+    });
+    toggleClass(['black-border', 'yellow-border'], document.querySelector(".list-group"));
 
     //document.getElementsByClassName("list-group")[0]
     //.classList.toggle("blue-border");
