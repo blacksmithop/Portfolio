@@ -50,6 +50,10 @@ a:active {
 	border-color: #ffc107;
 }
 
+.blue-border {
+	border-color: RebeccaPurple;
+}
+
 /* navbar */
 .nav-link,
 .fa-circle-chevron-down {
@@ -67,6 +71,11 @@ a:active {
 }
 
 /* list items */
+.list-group {
+	border-left-style: solid;
+	border-width: 12px;
+}
+
 .list-group-item {
 	border: 0;
 	background-color: inherit;
@@ -126,30 +135,30 @@ a:active {
 .accordion-button {
 	width: fit-content;
 	height: fit-content;
-	border-top-style: solid;
-	border-color: coral;
+	border-style: solid;
 	border-width: 6px;
-	margin-bottom: 15px;
 }
 
 .accordion-body {
-	border-left-style: solid;
 	border-top-style: solid;
+	border-radius: 35px;
+	border-left-style: solid;
 	border-width: 6px;
 }
 
 .accordion-button:focus {
 	box-shadow: none;
-	border-color: rgba(0, 0, 0, 0.125);
+	border-color: SlateBlue;
 }
 
 .accordion [aria-expanded="true"] {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
 
 .accordion [aria-expanded="false"] {
-	background-color: #eee;
+	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }

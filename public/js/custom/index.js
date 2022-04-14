@@ -27,6 +27,8 @@ toggleDarkMode = function () {
     //accordion
     $(".accordion-button").toggleClass("bg-dark bg-light");
     $(".accordion-button").toggleClass("text-dark text-light");
+    $(".accordion-button").toggleClass("blue-border");
     $(".accordion-body").toggleClass("yellow-border");
-
+    //list group
+    $(".list-group").toggleClass("blue-border");
 }
