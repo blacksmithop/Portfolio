@@ -33,6 +33,12 @@ body:not(.dark) .darkmode .dark {
     background: rgb(197, 194, 194);
 }
 
+/*columns*/
+.col:empty {
+    display: none;
+}
+
+
 .brightness-full {
     filter: brightness(1);
 }

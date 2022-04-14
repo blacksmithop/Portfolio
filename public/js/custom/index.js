@@ -1,8 +1,11 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     toggleDarkMode();
-    const toggleMode = document.getElementsByClassName("darkmode")[0]
+    const toggleMode = document.querySelector(".darkmode");
     toggleMode.addEventListener("click", toggleDarkMode);
+
+    const cardDivs = document.querySelectorAll('.close-icon');
+    cardDivs.forEach(el => el.addEventListener('click', closeCard));
 });
 
 toggleDarkMode = function () {
@@ -54,3 +57,16 @@ toggleBgColor = function (element) {
     ["bg-light", "bg-dark"].map(v => element.classList.toggle(v))
 }
 
+closeCard = function (e) {
+    var el = e.target.parentElement.parentElement.parentElement;
+    var cnt = el.parentElement.childElementCount;
+    var col = el.parentElement.parentElement;
+
+    if (cnt == 1) {
+        //hide cols if empty
+        return col.remove();
+    }
+    el.remove();
+
+
+}

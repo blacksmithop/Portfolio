@@ -54,3 +54,8 @@ a:active {
 .dark-border {
     border-color: #292b2c;
 }
+
+/*close card*/
+.fa-times:hover {
+    transform: scale(1.5);
+}
