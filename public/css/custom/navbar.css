@@ -1,10 +1,6 @@
 /*navbar*/
-.nav-link,
-.fa-circle-chevron-down {
-    color: black;
-}
+/*items*/
 
-/*nav items*/
 .nav-link {
     font-size: 18px;
     color: white;

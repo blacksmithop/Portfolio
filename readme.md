@@ -6,6 +6,7 @@
 ## Features 
 - [x] Favicon, meta tags, css and js
 - [x] Dark mode
+  - [ ] Toggle per system preference
 - [x] Responsive navbar
   - [ ] Link to section / open accordion
   - [ ] Styled avatar

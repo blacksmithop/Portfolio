@@ -9,7 +9,6 @@ body {
     position: relative;
     height: 80vh;
     width: 100vw;
-    padding: 10px 10px 10px 0px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -23,4 +22,20 @@ div.darkmode {
 body.dark .darkmode .light,
 body:not(.dark) .darkmode .dark {
     display: none;
+}
+
+.dark {
+    background: black;
+}
+
+.light {
+    background: rgb(197, 194, 194);
+}
+
+.brightness-full {
+    filter: brightness(1);
+}
+
+.brightness-dim {
+    filter: brightness(0.8);
 }
