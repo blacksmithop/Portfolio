@@ -4,21 +4,22 @@
 
 ### [Website](https://blacksmithop.github.io/Portfolio/#)
 ## Features 
-- [x] Favicon, meta tags
-- [x] Responsive header
-- [x] Responsive footer
-- [x] Responsive cards (project)
+- [x] Favicon, meta tags, css and js
 - [x] Dark mode
-- [x] Sectioned content (accordion)
-- [ ] Autoplay videos (convert gifs to mp4) as preview
-- [ ] Styling for accordion buttons
-- [ ] Navbar links to sections
-- [ ] Add resume
-- [ ] Add about me (modal)
-- [ ] Content for tech stack 
-- [ ] Fix user image dropdown
-- [ ] Add contact section
-- [ ] Social links, repository websites etc 
-- [ ] Fix app-body height when multiple accordions are open
-
-- [ ] About me (modal)
+- [x] Responsive navbar
+  - [ ] Link to section / open accordion
+  - [ ] Styled avatar
+    - [ ] Social buttons, links
+- [x] Responsive footer
+  - [ ] Resume (direct download/modal)
+  - [ ] Contact - details
+- [x] Sectioned content (styled accordions)
+  - [x] About me
+  - [x] Responsive cards (project)
+    - [x] Video autoplay (.webm) for preview
+  - [x] Tech stack
+### Fixes
+> External css, js
+> Large files, loadtime
+> Darkmode
+> Viewport for content section (accordion)
