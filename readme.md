@@ -15,6 +15,7 @@
   - [ ] Resume (direct download/modal)
   - [ ] Contact - details
 - [x] Sectioned content (styled accordions)
+  - [ ] Dynamically populate content (eg. pure.js & a json file)
   - [x] About me
   - [x] Responsive cards (project)
     - [x] Video autoplay (.webm) for preview
