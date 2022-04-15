@@ -19,8 +19,6 @@ toggleDarkMode = function () {
     let displayMode = document.querySelector(".darkmode").children;
     toggleClass(["visible", "visually-hidden"], displayMode[0])
     toggleClass(["visually-hidden", "visible"], displayMode[1])
-
-
     // darkmode
     toggleClass(['light', 'dark'], document.body);
     // brightness
@@ -52,9 +50,6 @@ toggleDarkMode = function () {
         toggleClass(['black-border', 'yellow-border'], e);
     });
     toggleClass(['black-border', 'yellow-border'], document.querySelector(".list-group"));
-
-    //document.getElementsByClassName("list-group")[0]
-    //.classList.toggle("blue-border");
 }
 
 toggleClass = function (classList, element) {

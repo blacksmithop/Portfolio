@@ -8,7 +8,8 @@
 - [x] Dark mode
   - [ ] Toggle per system preference
 - [x] Responsive navbar
-  - [ ] Link to section / open accordion
+  - [x] Tooltips
+  - [x] Link to section / open accordion
   - [ ] Styled avatar
     - [ ] Social buttons, links
 - [x] Responsive footer

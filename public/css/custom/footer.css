@@ -1,4 +1,9 @@
 /*footer*/
+footer {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
 /*icon tests*/
 .icon::before {
     display: inline-block;

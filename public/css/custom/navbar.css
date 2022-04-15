@@ -1,5 +1,8 @@
 /*navbar*/
-/*items*/
+.navbar {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 .nav-link {
     font-size: 18px;
