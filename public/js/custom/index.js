@@ -1,14 +1,19 @@
 
 document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.querySelector(".darkmode");
+    toggleBtn.addEventListener("click", toggleDarkMode);
     toggleDarkMode();
-    const toggleMode = document.querySelector(".darkmode");
-    toggleMode.addEventListener("click", toggleDarkMode);
 
     const cardDivs = document.querySelectorAll('.close-icon');
     cardDivs.forEach(el => el.addEventListener('click', closeCard));
 });
 
 toggleDarkMode = function () {
+    let displayMode = document.querySelector(".darkmode").children;
+    toggleClass(["visible", "visually-hidden"], displayMode[0])
+    toggleClass(["visually-hidden", "visible"], displayMode[1])
+
+
     // darkmode
     toggleClass(['light', 'dark'], document.body);
     // brightness

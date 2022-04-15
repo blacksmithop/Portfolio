@@ -18,6 +18,7 @@
   - [x] About me
   - [x] Responsive cards (project)
     - [x] Video autoplay (.webm) for preview
+    - [ ] Carousel / scorabble accordion body
   - [x] Tech stack
 ### Fixes
 > External css, js

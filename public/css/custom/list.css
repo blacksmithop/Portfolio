@@ -1,10 +1,10 @@
 /*list items*/
 .list-group {
 	border-left-style: solid;
-	border-width: 12px;
+	border-top-style: solid;
+	border-width: 9px;
 	margin-left: 10px;
-	border-top-left-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-radius: 25px;
 }
 
 .list-group-item {
