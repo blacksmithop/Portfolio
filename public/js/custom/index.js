@@ -6,6 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const cardDivs = document.querySelectorAll('.close-icon');
     cardDivs.forEach(el => el.addEventListener('click', closeCard));
+
+    //enable tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    console.log(tooltipList)
 });
 
 toggleDarkMode = function () {
