@@ -20,9 +20,9 @@
     - [x] Video autoplay (.webm) for preview
     - [ ] Carousel / scorabble accordion body
   - [x] Tech stack
-### Fixes
-> External css, js
-> Large files, loadtime
-> Darkmode
-  > Alternati icon (sun/moon) based on mode
-> Viewport for content section (accordion)
+## Fixes
+* External css, js
+* Large files, loadtime
+* Darkmode
+  * Alternati icon (sun/moon) based on mode
+* Viewport for content section (accordion)
