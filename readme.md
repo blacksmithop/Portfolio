@@ -24,4 +24,5 @@
 > External css, js
 > Large files, loadtime
 > Darkmode
+  > Alternati icon (sun/moon) based on mode
 > Viewport for content section (accordion)
