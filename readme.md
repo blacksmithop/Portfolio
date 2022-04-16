@@ -44,6 +44,9 @@
           - [ ] Contact details
           - [ ] Social links 
 
+- [x] Assets
+  - [ ] Compress `.webp` files (if possible)
+
 ---
 ## Fixes
 * External css, js
