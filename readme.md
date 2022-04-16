@@ -6,23 +6,26 @@
 ## Features 
 - [x] Favicon, meta tags, css and js
 - [x] Dark mode
-  - [ ] Toggle per system preference
+  - [ ] Toggle based on system preference
 - [x] Responsive navbar
   - [x] Tooltips
   - [x] Link to section / open accordion
-  - [ ] Styled avatar
+  - [x] Styled avatar
     - [x] Fixed dropdown direction (small screen)
-    - [ ] Social buttons, links
+    - [ ] More social links
+    - [ ] Hover effects
 - [x] Responsive footer
   - [x] Resume
-    - [x] tooltip
+    - [x] Toasts
       - [x] Download & View (button)
-  - [ ] Make .btn queryselector more specific
-  - [ ] Contact - details
+      - [ ] Responsive
+- [x] Element specific query selectors (js)
+- [ ] Contact
+  - [ ] Modal with details
 - [x] Sectioned content (styled accordions)
-  - [ ] Dynamically populate content (eg. pure.js with json)
   - [x] About me
-  - [x] Responsive cards (project)
+  - [ ] Dynamically populate content (eg. pure.js with json)
+  - [x] Responsive cards (projects)
     - [x] Video autoplay (.webm) for preview
     - [ ] Carousel / scorabble accordion body
   - [x] Tech stack

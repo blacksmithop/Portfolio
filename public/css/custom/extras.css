@@ -34,6 +34,12 @@ a:active {
     z-index: -1;
 }
 
+code,
+kdb {
+    font-size: 1.15em;
+}
+
+
 /*Custom border*/
 .white-border {
     border-color: white;

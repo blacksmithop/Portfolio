@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-    console.log(tooltipList)
 });
 
 enableToasts = function () {
@@ -54,8 +53,7 @@ toggleDarkMode = function () {
     //about me
     toggleTextColor(document.querySelector(".about-me"));
     //accordion
-    let accordionBtn = document.querySelectorAll(".accordion button");
-    accordionBtn.forEach((e) => {
+    document.querySelectorAll(".accordion button").forEach((e) => {
         toggleBgColor(e);
         toggleTextColor(e);
         toggleClass(['blue-border', 'purple-border'], e);
