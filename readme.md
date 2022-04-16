@@ -2,8 +2,8 @@
 
 <img alt="Website" src="https://img.shields.io/website?down_message=Down&label=Website&up_message=Up&url=https://blacksmithop.github.io/Portfolio/">
 
-| [Website](https://blacksmithop.github.io/Portfolio/#) |
-| ----------------------------------------------------- |
+| [Website](https://blacksmithop.github.io/Portfolio/) |
+| ---------------------------------------------------- |
 
 ---
 ## Features 
