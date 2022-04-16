@@ -36,3 +36,9 @@ footer {
     content: "\f0c8";
     font-weight: 400;
 }
+
+.resume::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f15b";
+    font-weight: 400;
+}

@@ -11,12 +11,16 @@
   - [x] Tooltips
   - [x] Link to section / open accordion
   - [ ] Styled avatar
+    - [x] Fixed dropdown direction (small screen)
     - [ ] Social buttons, links
 - [x] Responsive footer
-  - [ ] Resume (direct download/modal)
+  - [x] Resume
+    - [x] tooltip
+      - [ ] Donwload button
+  - [ ] Make .btn queryselector more specific
   - [ ] Contact - details
 - [x] Sectioned content (styled accordions)
-  - [ ] Dynamically populate content (eg. pure.js & a json file)
+  - [ ] Dynamically populate content (eg. pure.js with json)
   - [x] About me
   - [x] Responsive cards (project)
     - [x] Video autoplay (.webm) for preview

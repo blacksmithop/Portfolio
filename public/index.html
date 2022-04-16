@@ -29,6 +29,8 @@
     <link href="./css/custom/main.css" rel="stylesheet">
     <!--navbar-->
     <link href="./css/custom/navbar.css" rel="stylesheet">
+    <!--avatar-->
+    <link href="./css/custom/avatar.css" rel="stylesheet">
     <!--cards-->
     <link href="./css/custom/cards.css" rel="stylesheet">
     <!--accordion-->
@@ -85,25 +87,23 @@
                 </ul>
                 <form class="row g-3">
                     <div class="col-auto">
-                        <div class="nav-item dropdown dropstart text-end">
-                            <a href="#" id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="nav-item dropdown text-end">
+                            <figure id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="./assets/img/avatar.svg" alt="blaksmithop" width="60" height="60"
                                     class="rounded-circle bg-white">
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark text-small" aria-labelledby="dropdownAvatar">
-                                <li>
-                                    <a class="dropdown-item" target="_blank" href="https://angstycoder101.medium.com/">
+                            </figure>
+                            <ul class="dropdown-menu dropdown-menu-start dropdown-menu-sm-end dropdown-menu-dark text-small"
+                                aria-labelledby="dropdownAvatar">
+                                <li><a class="dropdown-item" target="_blank" href="https://angstycoder101.medium.com/">
                                         Medium <i class="fa-brands fa-medium"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" target="_blank"
+                                <li><a class="dropdown-item" target="_blank"
                                         href="https://www.codewars.com/users/blacksmithop"> Codewars <i
                                             class="fa-solid fa-code"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" target="_blank" href="https://codepen.io/blacksmithop">
+                                <li><a class="dropdown-item" target="_blank" href="https://codepen.io/blacksmithop">
                                         Codepen <i class="fa-brands fa-codepen"></i>
                                     </a>
                                 </li>
@@ -507,19 +507,36 @@
                 </div>
             </li>
         </ul>
-
     </div>
 
     <!--footer-->
     <footer class="fixed-bottom bg-dark text-light">
+
+        <!--toast-->
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="resumeToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header text-black fs-5 mx-auto">
+                    <strong class="icon resume"> My resume</strong>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body bg-dark fs-6">
+                    <a href="./assets/doc/Resume_AbhinavKM.pdf" target="_blank" type="button"
+                        class="btn btn-success text-white">View</a>
+                    <a href="./assets/doc/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button"
+                        target="_blank" type="button" class="btn btn-danger text-white">Download</a>
+                </div>
+            </div>
+        </div>
+
         <ul class="nav justify-content-center border-bottom">
             <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" target="_blank"
                     class="nav-link">Source</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id="resumeToastBtn">Resume</a></li>
         </ul>
         <p class="icon copyright text-center nav-link"> Abhinav</p>
     </footer>
+
     <!--modals-->
     <div class="modal fade mx-auto" id="catalogueModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">

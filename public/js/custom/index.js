@@ -2,7 +2,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.querySelector(".darkmode");
     toggleBtn.addEventListener("click", toggleDarkMode);
+
     toggleDarkMode();
+    enableToasts();
 
     const cardDivs = document.querySelectorAll('.close-icon');
     cardDivs.forEach(el => el.addEventListener('click', closeCard));
@@ -14,6 +16,18 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     console.log(tooltipList)
 });
+
+enableToasts = function () {
+    var toastTrigger = document.getElementById('resumeToastBtn')
+    var toastLiveExample = document.getElementById('resumeToast')
+    if (toastTrigger) {
+        toastTrigger.addEventListener('click', function () {
+            var toast = new bootstrap.Toast(toastLiveExample)
+
+            toast.show()
+        })
+    }
+}
 
 toggleDarkMode = function () {
     let displayMode = document.querySelector(".darkmode").children;
@@ -29,7 +43,7 @@ toggleDarkMode = function () {
         toggleTextColor(e);
     });
     // buttons
-    document.querySelectorAll(".btn").forEach((e) => {
+    document.querySelectorAll(".card-footer> .btn").forEach((e) => {
         toggleClass(['btn-light', 'btn-dark'], e);
         toggleTextColor(e);
     });
