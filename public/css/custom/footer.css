@@ -41,4 +41,12 @@ footer {
     font-family: "Font Awesome 5 Free";
     content: "\f15b";
     font-weight: 400;
+    font-size: larger;
+}
+
+.see::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06e";
+    font-weight: 400;
+    font-size: larger;
 }

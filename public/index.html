@@ -37,6 +37,8 @@
     <link href="./css/custom/accordion.css" rel="stylesheet">
     <!--footer-->
     <link href="./css/custom/footer.css" rel="stylesheet">
+    <!--toast-->
+    <link href="./css/custom/toast.css" rel="stylesheet">
     <!--list-->
     <link href="./css/custom/list.css" rel="stylesheet">
     <!--overrides, custom-->
@@ -511,23 +513,21 @@
 
     <!--footer-->
     <footer class="fixed-bottom bg-dark text-light">
-
         <!--toast-->
-        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div class="position-fixed bottom-0 start-50">
             <div id="resumeToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header text-black fs-5 mx-auto">
-                    <strong class="icon resume"> My resume</strong>
-                    <button type="button" class="btn btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                <div class="toast-header text-black">
+                    <strong class="me-auto icon resume fs-5"> My resume</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
-                <div class="toast-body bg-dark fs-6">
+                <div class="toast-body fs-6">
                     <a href="./assets/doc/Resume_AbhinavKM.pdf" target="_blank" type="button"
-                        class="btn btn-success text-white">View</a>
+                        class="btn btn-success text-white icon see"> View</a>
                     <a href="./assets/doc/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button"
-                        target="_blank" type="button" class="btn btn-danger text-white">Download</a>
+                        target="_blank" type="button" class="btn btn-danger text-white icon resume"> Download</a>
                 </div>
             </div>
         </div>
-
         <ul class="nav justify-content-center border-bottom">
             <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" target="_blank"
                     class="nav-link">Source</a></li>

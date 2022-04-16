@@ -1,0 +1,10 @@
+.toast {
+    z-index: 11;
+    background-color: inherit;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.toast-body {
+    background-color: black;
+}
