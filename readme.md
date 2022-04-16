@@ -16,7 +16,7 @@
 - [x] Responsive footer
   - [x] Resume
     - [x] tooltip
-      - [ ] Donwload button
+      - [x] Download & View (button)
   - [ ] Make .btn queryselector more specific
   - [ ] Contact - details
 - [x] Sectioned content (styled accordions)
