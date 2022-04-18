@@ -14,10 +14,10 @@
 
 #### Website:
 
- :tophat: `<head>` ```Libraries, meta, ogp & custom css/js```
+##### :tophat: `<head>` ```Libraries, meta, ogp & custom css/js```
 - [x] Favicon, meta description, crawlers etc.
   
-:world_map: `<navbar>` ```Navigation, Avatar```
+##### :world_map: `<navbar>` ```Navigation, Avatar```
   - [x] Responsive navbar
     - [x] Tooltips
     - [x] Link to section / open accordion
@@ -25,14 +25,14 @@
       - [x] Dropdown menu direction based on screen size
       - [ ] Hover effect
 
-:last_quarter_moon: `<darkmode>` ```Dark mode with toggle```
+##### :last_quarter_moon: `<darkmode>` ```Dark mode with toggle```
   - [x] Responsive icons
   - [x] Implementation 
     - [x] class toggle in js
     - [ ] toggle as per system preference
     - [ ] css only, two stylesheets
 
-:package: `<app-body>` ```The content```
+##### :package: `<app-body>` ```The content```
 - [x] Content in sections
   - [x] About me
   - [x] Projects
@@ -43,7 +43,7 @@
     - [ ] Populate on page load
     - [ ] Responsiveness 
 
-:footprints: `<footer>` ```Copyright, links & resume```
+##### :footprints: `<footer>` ```Copyright, links & resume```
 - [x] Responsive
     - [x] Resume
       - [x] Toasts
@@ -56,26 +56,27 @@
     -  [x] Source
        -  [x] Redirect to repository
 
-:left_speech_bubble: `<modal>` ```Project preview```
+##### :left_speech_bubble: `<modal>` ```Project preview```
   - [x] Responsive modal
     - [ ] Create & destroy on demand
 
-:card_index_dividers: `Assets` ```img, video, doc/pdf, json```
+##### :card_index_dividers: `Assets` ```img, video, doc/pdf, json```
   - [x] Compress `.webp` files
     - [ ] Github Action
 
 
 ---
 ## Fixes
-* External css, js
-* Large files, loadtime
+* Inline css (critical), minify (wip)
+* Compress assets (wip)
+* Loadtime improvements (FCP)
 * Darkmode
-  * Alternate icon (sun/moon) based on mode
-* Viewport for content section (accordion)
-* Element specific query selectors
-* Dynamic cards (closable)
+  * Alternate icons based on mode
+* Make long sections scrollable
+* Better query selectors
+* Dynamically added cards
 * Moved render blocking tags to the bottom
-* Dynamic modal creation (WIP)
+* Dynamic modal creation (wip)
 
 ---
 ## Pointers
