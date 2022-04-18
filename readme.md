@@ -1,19 +1,25 @@
 # Portfolio 📁 
 ![GitHub issues](https://img.shields.io/github/issues/blacksmithop/Portfolio?label=issues)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blacksmithop/Portfolio?color=green&label=issues)
+![Website](https://img.shields.io/website?down_message=Down&label=Website&up_message=Up&url=https%3A%2F%2Fblacksmithop.github.io%2FPortfolio%2F)
 
 | [Website](https://blacksmithop.github.io/Portfolio/) |
 | ---------------------------------------------------- |
 
-![Website](https://img.shields.io/website?down_message=Down&label=Status&up_message=Up&url=https%3A%2F%2Fblacksmithop.github.io%2FPortfolio%2F)
 
 ---
+## Table of Contents
+  * [Features](#features)
+    * [Website](#website)
+    * [CI-CD](#cicd)
+  * [Fixes](#fixes)
+  ()
+---
 ## Features 
-#### CI/CD:
+#### CI/CD
 - [x] Built from `main` (./public) to `gh-pages` by [action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
 
 #### Website:
-
 ##### :tophat: `<head>` ```Libraries, meta, ogp & custom css/js```
 - [x] Favicon, meta description, crawlers etc.
   
