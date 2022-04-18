@@ -8,6 +8,8 @@
 ---
 ## Features 
 
+Deploys from `main` (./public) to `gh-pages` automatically (Actions)
+
  `<head>` - Libraries, meta tags and custom css/js
 - [x] Favicon, meta description, crawlers etc.
   
@@ -29,7 +31,7 @@
   - [x] About me
   - [x] Responsive cards (projects)
     - [x] Video autoplay (.webm) for preview
-    - [ ] Carousel / scorabble accordion body
+    - [ ] Carousel / scrollable accordion body
   - [x] Tech stack
   - [x] Enchancements (non-priority)
     - [ ] Dynamically populate content (eg. pure.js with json)
@@ -40,16 +42,21 @@
     - [x] Resume
       - [x] Toasts
           - [x] Download & View (button)
-          - [x] Responsive, styling & icons
+            - [x] styling & icons
+            - [] Responsive 
     -  [ ] Contact
           - [ ] Contact details
           - [ ] Social links 
 
+`<modal>` - Project preview
+  - [x] Responsive modal
+    - [ ] Create & destroy on demand
+
 - [x] Assets
-  - [ ] Compress `.webp` files (if possible)
+  - [x] Compress `.webp` files
+    - [ ] Github Action for this
 - [x] Cosmetic
   - [ ] Add spacing before first letter of certain tags i.e icon and text 
-  - [ ] Fix card delete for cards (new)
 
 ---
 ## Fixes
@@ -59,6 +66,9 @@
   * Alternate icon (sun/moon) based on mode
 * Viewport for content section (accordion)
 * Element specific query selectors
+* Dynamic cards (closable)
+* Moved render blocking tags to the bottom
+* Dynamic modal creation (WIP)
 
 ---
 ## Pointers
