@@ -1,16 +1,17 @@
 # Portfolio 📁 
-
-<img alt="Website" src="https://img.shields.io/website?down_message=Down&label=Website&up_message=Up&url=https://blacksmithop.github.io/Portfolio/">
+[![GitHub issues](https://img.shields.io/github/issues/blacksmithop/portfolio.svg)](https://hitHub.com/blacksmithop/portfolio/issues/)
 
 | [Website](https://blacksmithop.github.io/Portfolio/) |
 | ---------------------------------------------------- |
+
+![Website](https://img.shields.io/website?down_message=Down&label=Status&up_message=Up&url=https%3A%2F%2Fblacksmithop.github.io%2FPortfolio%2F)
 
 ---
 ## Features 
 
 Deploys from `main` (./public) to `gh-pages` automatically (Actions)
 
- `<head>` - Libraries, meta tags and custom css/js
+ `<head>` - Libraries, meta, ogp & custom css/js
 - [x] Favicon, meta description, crawlers etc.
   
 `<navbar>` - Navigation, Avatar
