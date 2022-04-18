@@ -14,10 +14,10 @@
 
 #### Website:
 
- `<head>` :tophat: - ```Libraries, meta, ogp & custom css/js```
+ `<head>` :tophat: ```Libraries, meta, ogp & custom css/js```
 - [x] Favicon, meta description, crawlers etc.
   
-`<navbar>` :world_map: - ```Navigation, Avatar```
+`<navbar>` :world_map: ```Navigation, Avatar```
   - [x] Responsive navbar
     - [x] Tooltips
     - [x] Link to section / open accordion
@@ -25,13 +25,13 @@
       - [x] Dropdown menu direction based on screen size
       - [ ] Hover effect
 
-`<darkmode>` - :last_quarter_moon: ```Dark mode with toggle```
+`<darkmode>` :last_quarter_moon: ```Dark mode with toggle```
   - [x] Responsive icons
   - [x] Js implementation (toggling classes)
   - [ ] Css implementation (switch stylesheets with toggle)
   - [ ] Toggle based on system preference
 
-`<app-body>` -  :package: ```The portfolio content```
+`<app-body>` :package: ```The portfolio content```
 - [x] Sectioned content (styled accordions)
   - [x] About me
   - [x] Responsive cards (projects)
@@ -42,7 +42,7 @@
     - [ ] Dynamically populate content (eg. pure.js with json)
     - [ ] Dynamic icons, colors and category
 
-`<footer>` - :footprints: ```Copyright, links, resume```
+`<footer>` :footprints: ```Copyright, links, resume```
 - [x] Responsive footer
     - [x] Resume
       - [x] Toasts
@@ -53,11 +53,11 @@
           - [ ] Contact details
           - [ ] Social links 
 
-`<modal>` - ```Project preview```
+`<modal>` ```Project preview```
   - [x] Responsive modal
     - [ ] Create & destroy on demand
 
-`Assets`📂 - ```img, video, doc/pdf, json```
+`Assets` 📂 ```img, video, doc/pdf, json```
   - [x] Compress `.webp` files
     - [ ] Github Action for this
 
