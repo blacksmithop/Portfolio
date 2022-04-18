@@ -29,16 +29,19 @@
         body {
             width: 100%;
             height: 100%;
+            background-color: inherit;
         }
 
         .app-body {
             position: relative;
             height: 80vh;
             width: 100vw;
-            padding: 10px 10px 40px 0px;
+            padding: 10px 10px 40px 5px;
             overflow-x: hidden;
             overflow-y: scroll;
         }
+
+
 
         div.darkmode {
             display: inline-block;
@@ -58,38 +61,83 @@
         .light {
             background: rgb(197, 194, 194);
         }
+
+        code,
+        kdb {
+            font-size: 1.15em;
+        }
+
+        .icon::before {
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .copyright::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f1f9";
+            font-weight: 400;
+        }
+
+        .keyboard::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f11c";
+            font-weight: 400;
+        }
+
+        .stack::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f24d";
+            font-weight: 400;
+        }
+
+        .home::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f0c8";
+            font-weight: 400;
+        }
+
+        .resume::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f15b";
+            font-weight: 400;
+            font-size: larger;
+        }
+
+        .see::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f06e";
+            font-weight: 400;
+            font-size: larger;
+        }
+
+        .modal [aria-hidden="true"] {
+            display: none;
+        }
+
+        .modal-backdrop {
+            z-index: -1;
+        }
     </style>
 
     <!--Load from disk-->
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
     <!--Fontawesome-->
     <link href="./css/fontawesome/all.css" rel="stylesheet">
-    <!--body, darkmode-->
-    <link href="./css/custom/main.css" rel="stylesheet">
-    <!--navbar-->
-    <link href="./css/custom/navbar.css" rel="stylesheet">
-    <!--accordion-->
-    <link href="./css/custom/accordion.css" rel="stylesheet">
-    <!--footer-->
-    <link href="./css/custom/footer.css" rel="stylesheet">
-    <!--toast-->
-    <link href="./css/custom/toast.css" rel="stylesheet">
-    <!--list-->
-    <link href="./css/custom/list.css" rel="stylesheet">
-    <!--overrides, custom-->
-    <link href="./css/custom/extras.css" rel="stylesheet">
 </head>
 
 <body class="light">
     <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light">
+    <nav class="navbar position-relative navbar-expand-md navbar-dark bg-dark text-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="./">Portfolio</a>
+            <div class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </div>
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout"
@@ -124,7 +172,7 @@
                     <div class="col-auto">
                         <div class="nav-item dropdown text-end">
                             <figure id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./assets/img/avatar.svg" alt="blaksmithop" width="60" height="60"
+                                <img src="./assets/img/avatar.svg" alt="blaksmithop" width="50" height="50"
                                     class="rounded-circle bg-white">
                             </figure>
                             <ul class="dropdown-menu dropdown-menu-start dropdown-menu-sm-end dropdown-menu-dark text-small"
@@ -150,21 +198,21 @@
         </div>
     </nav>
     <!--Content-->
-    <div class="app-body brightness-dim">
-        <ul class="list-group" id="#accordionFlush">
+    <div class="app-body">
+        <ul class="list-group border-dark bg-dark" id="#accordionFlush" style="border-width: 9px;">
             <!--about-->
-            <li class="list-group-item">
+            <li class="list-group-item" style="background-color: inherit;">
                 <div class="accordion accordion-flush" id="flush-headingOne">
-                    <button class="accordion-button blue-border fs-4 bg-dark text-light" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout" aria-expanded="true"
-                        aria-controls="flush-collapseAbout">About</button>
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success fs-4 bg-dark text-light"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout"
+                        aria-expanded="true" aria-controls="flush-collapseAbout">About</div>
                 </div>
                 <div id="flush-collapseAbout" class="accordion-collapse collapse show"
                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
-                    <div class="accordion-body">
-                        <div class="container-fluid about-me text-dark">
-                            <p class="h1">Hello!</p>
-                            <p class="lead fs-5">I am <kbd>Abhinav KM</kbd> a Software Developer based in
+                    <div class="accordion-body border-dark">
+                        <div class="container-fluid about-me">
+                            <p class="h1 text-light">Hello!</p>
+                            <p class="lead text-light fs-5">I am <kbd>Abhinav KM</kbd> a Software Developer based in
                                 <code>India</code>. I
                                 enjoy creating
                                 applications that are intuitive and easy to use. I'm currently working on my
@@ -175,15 +223,15 @@
                 </div>
             </li>
             <!--projects-->
-            <li class=" list-group-item">
+            <li class=" list-group-item" style="background-color: inherit;">
                 <div class="accordion accordion-flush" id="flush-headingTwo">
-                    <button class="accordion-button blue-border collapsed fs-4 bg-dark text-light" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects" aria-expanded="false"
-                        aria-controls="flush-collapseProjects">Projects</button>
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success collapsed fs-4 bg-dark text-light"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects"
+                        aria-expanded="false" aria-controls="flush-collapseProjects">Projects</div>
                 </div>
                 <div id="flush-collapseProjects" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlush">
-                    <div class="accordion-body">
+                    <div class="accordion-body border-dark">
                         <div class="accordion-card row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-3 g-4 pt-2">
                             <div class="col">
                                 <div class="card border-success border-2 mb-3 text-dark bg-light"
@@ -214,20 +262,20 @@
                     </div>
             </li>
             <!--stack-->
-            <li class="list-group-item">
+            <li class="list-group-item" style="background-color: inherit;">
                 <div class="accordion accordion-flush" id="flush-headingThree">
-                    <button class="accordion-button blue-border collapsed fs-4 bg-dark text-light" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#flush-collapseStack" aria-expanded="false"
-                        aria-controls="flush-collapseStack">Stack</button>
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success collapsed fs-4 bg-dark text-light"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseStack"
+                        aria-expanded="false" aria-controls="flush-collapseStack">Stack</div>
                 </div>
                 <div id="flush-collapseStack" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlush">
-                    <div class="accordion-body">
+                    <div class="accordion-body border-dark">
                         <div class="container-fluid">
                             <div class="row row-cols-6 row-cols-lg-6 
                             row-cols-md-4 row-cols-sm-3 g-4">
                                 <div class="col">
-                                    <span style="font-size: 48px; color: lightgreen;">
+                                    <span style="font-size: 48px; color: green;">
                                         <i class="fa-brands fa-python"></i>
                                     </span>
                                 </div>
@@ -273,31 +321,33 @@
             </li>
         </ul>
     </div>
-
     <!--footer-->
     <footer class="fixed-bottom bg-dark text-light">
         <!--toast-->
-        <div class="position-fixed bottom-0 start-50">
-            <div id="resumeToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header text-black">
-                    <strong class="me-auto icon resume fs-5"> My resume</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
+        <div class="position-fixed">
+            <div id="resumeToast" class="toast bg-black text-white w-100 h-25" role="alert" aria-live="assertive"
+                aria-atomic="true" style="border-style: solid;border-radius: 25px;">
                 <div class="toast-body fs-6">
-                    <a href="./assets/doc/Resume_AbhinavKM.pdf" target="_blank" type="button"
-                        class="btn btn-success text-white icon see"> View</a>
-                    <a href="./assets/doc/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button"
-                        target="_blank" type="button" class="btn btn-danger text-white icon resume"> Download</a>
+                    <div class="btn-group">
+                        <a href="./assets/pdf/Resume_AbhinavKM.pdf" target="_blank" type="button"
+                            class="btn text-white icon see"> View</a>
+                        <a href="./assets/pdf/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button"
+                            target="_blank" type="button" class="btn text-white icon resume"> Download</a>
+                        <div type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></div>
+                    </div>
                 </div>
             </div>
         </div>
         <ul class="nav justify-content-center border-bottom">
             <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" target="_blank"
-                    class="nav-link">Source</a></li>
-            <li class="nav-item"><a class="nav-link">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" id="resumeToastBtn">Resume</a></li>
+                    class="nav-link link-light fs-6">Source</a></li>
+            <li class="nav-item"><a class="nav-link link-light fs-6">Contact</a></li>
+            <li class="nav-item"><a class="nav-link link-light fs-6" href="#" title="Click to see"
+                    id="resumeToastBtn">Resume</a>
+            </li>
         </ul>
-        <p class="icon copyright text-center nav-link"> Abhinav</p>
+        <p class="icon copyright text-center nav-link link-light fs-5"> Abhinav</p>
     </footer>
 
     <!--modals-->

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.querySelector(".darkmode");
     toggleBtn.addEventListener("click", toggleDarkMode);
 
-    //toggleDarkMode();
+    toggleDarkMode();
     enableToasts();
     enablTooltips();
     populateCards();
@@ -35,8 +35,6 @@ toggleDarkMode = function () {
     toggleClass(["visually-hidden", "visible"], displayMode[1])
     // darkmode
     toggleClass(['light', 'dark'], document.body);
-    // brightness
-    toggleClass(['brightness-dim', 'brightness-full'], document.querySelector(".app-body"));
     //card
     document.querySelectorAll('.card').forEach((e) => {
         toggleBgColor(e);
@@ -57,12 +55,11 @@ toggleDarkMode = function () {
     document.querySelectorAll(".accordion button").forEach((e) => {
         toggleBgColor(e);
         toggleTextColor(e);
-        toggleClass(['blue-border', 'purple-border'], e);
     });
     document.querySelectorAll(".accordion-body").forEach((e) => {
-        toggleClass(['black-border', 'yellow-border'], e);
+        toggleClass(['border-dark', 'border-warning'], e);
     });
-    toggleClass(['black-border', 'yellow-border'], document.querySelector(".list-group"));
+    toggleClass(['border-dark', 'border-warning'], document.querySelector(".list-group"));
 }
 // class toggle functions for darkmode
 toggleClass = function (classList, element) {
