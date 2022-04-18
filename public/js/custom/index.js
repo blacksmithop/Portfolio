@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.querySelector(".darkmode");
     toggleBtn.addEventListener("click", toggleDarkMode);
 
-    toggleDarkMode();
+    //toggleDarkMode();
     enableToasts();
     enablTooltips();
     populateCards();

@@ -1,5 +1,5 @@
-name: Publish page from ./public
-# when the workflow will run
+name: Publish
+# publish contents of ./public directory
 on:
   # only for the main branch
   push:
