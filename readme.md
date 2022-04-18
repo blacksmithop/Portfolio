@@ -10,7 +10,7 @@
 ---
 ## Features 
 #### CI/CD:
-- [x] Built from `main` (./public) to `gh-pages` by [Action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
+- [x] Built from `main` (./public) to `gh-pages` by [action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
 
 #### Website:
 
@@ -27,31 +27,34 @@
 
 :last_quarter_moon: `<darkmode>` ```Dark mode with toggle```
   - [x] Responsive icons
-  - [x] Js implementation (toggling classes)
-  - [ ] Css implementation (switch stylesheets with toggle)
-  - [ ] Toggle based on system preference
+  - [x] Implementation 
+    - [x] class toggle in js
+    - [ ] toggle as per system preference
+    - [ ] css only, two stylesheets
 
 :package: `<app-body>` ```The content```
-- [x] Sectioned content (styled accordions)
+- [x] Content in sections
   - [x] About me
-  - [x] Responsive cards (projects)
-    - [x] Video autoplay (.webm) for preview
-    - [ ] Carousel / scrollable accordion body
-  - [x] Tech stack
-  - [x] Enchancements (non-priority)
-    - [ ] Dynamically populate content (eg. pure.js with json)
-    - [ ] Dynamic icons, colors and category
+  - [x] Projects
+    - [x] Dynamically added & responsive cards
+    - [x] Video autoplay (.webm) for modal (preview)
+    - [ ] Carousel or a scrollable accordion body
+  - [x] Stack
+    - [ ] Populate on page load
+    - [ ] Responsiveness 
 
-:footprints: `<footer>` ```Copyright, links, resume```
-- [x] Responsive footer
+:footprints: `<footer>` ```Copyright, links & resume```
+- [x] Responsive
     - [x] Resume
       - [x] Toasts
           - [x] Download & View (button)
             - [x] styling & icons
-            - [] Responsive 
+              - [ ] Responsive (mobile)
     -  [ ] Contact
           - [ ] Contact details
           - [ ] Social links 
+    -  [x] Source
+       -  [x] Redirect to repository
 
 :left_speech_bubble: `<modal>` ```Project preview```
   - [x] Responsive modal
@@ -59,7 +62,7 @@
 
 :card_index_dividers: `Assets` ```img, video, doc/pdf, json```
   - [x] Compress `.webp` files
-    - [ ] Github Action for this
+    - [ ] Github Action
 
 
 ---
