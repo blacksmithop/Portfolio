@@ -1,5 +1,6 @@
 # Portfolio 📁 
-[![GitHub issues](https://img.shields.io/github/issues/blacksmithop/portfolio.svg)](https://hitHub.com/blacksmithop/portfolio/issues/)
+![GitHub issues](https://img.shields.io/github/issues/blacksmithop/Portfolio?label=issues)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/blacksmithop/Portfolio?color=green&label=issues)
 
 | [Website](https://blacksmithop.github.io/Portfolio/) |
 | ---------------------------------------------------- |
@@ -8,26 +9,28 @@
 
 ---
 ## Features 
+#### CI/CD:
+- [x] Built from `main` (./public) to `gh-pages` by [Action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
 
-Deploys from `main` (./public) to `gh-pages` automatically (Actions)
+#### Website:
 
- `<head>` - Libraries, meta, ogp & custom css/js
+ `<head>` :tophat: - ```Libraries, meta, ogp & custom css/js```
 - [x] Favicon, meta description, crawlers etc.
   
-`<navbar>` - Navigation, Avatar
+`<navbar>` :world_map: - ```Navigation, Avatar```
   - [x] Responsive navbar
     - [x] Tooltips
     - [x] Link to section / open accordion
     - [x] Styled avatar
       - [x] Dropdown menu direction based on screen size
       - [ ] Hover effect
-`<darkmode>` - Dark mode with toggle
+`<darkmode>` - ```Dark mode with toggle```
   - [x] Responsive icons
   - [x] Js implementation (toggling classes)
   - [ ] Css implementation (switch stylesheets with toggle)
   - [ ] Toggle based on system preference
 
-`<app-body>` - The portfolio content
+`<app-body>` - ```The portfolio content```
 - [x] Sectioned content (styled accordions)
   - [x] About me
   - [x] Responsive cards (projects)
@@ -38,7 +41,7 @@ Deploys from `main` (./public) to `gh-pages` automatically (Actions)
     - [ ] Dynamically populate content (eg. pure.js with json)
     - [ ] Dynamic icons, colors and category
 
-`<footer>` - Copyright, links, resume
+`<footer>` - ```Copyright, links, resume```
 - [x] Responsive footer
     - [x] Resume
       - [x] Toasts
@@ -49,15 +52,14 @@ Deploys from `main` (./public) to `gh-pages` automatically (Actions)
           - [ ] Contact details
           - [ ] Social links 
 
-`<modal>` - Project preview
+`<modal>` - ```Project preview```
   - [x] Responsive modal
     - [ ] Create & destroy on demand
 
-- [x] Assets
+`Assets`📂 - ```img, video, doc/pdf, json```
   - [x] Compress `.webp` files
     - [ ] Github Action for this
-- [x] Cosmetic
-  - [ ] Add spacing before first letter of certain tags i.e icon and text 
+
 
 ---
 ## Fixes
