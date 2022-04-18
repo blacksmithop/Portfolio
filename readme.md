@@ -24,13 +24,14 @@
     - [x] Styled avatar
       - [x] Dropdown menu direction based on screen size
       - [ ] Hover effect
-`<darkmode>` - ```Dark mode with toggle```
+
+`<darkmode>` - :last_quarter_moon: ```Dark mode with toggle```
   - [x] Responsive icons
   - [x] Js implementation (toggling classes)
   - [ ] Css implementation (switch stylesheets with toggle)
   - [ ] Toggle based on system preference
 
-`<app-body>` - ```The portfolio content```
+`<app-body>` -  :package: ```The portfolio content```
 - [x] Sectioned content (styled accordions)
   - [x] About me
   - [x] Responsive cards (projects)
@@ -41,7 +42,7 @@
     - [ ] Dynamically populate content (eg. pure.js with json)
     - [ ] Dynamic icons, colors and category
 
-`<footer>` - ```Copyright, links, resume```
+`<footer>` - :footprints: ```Copyright, links, resume```
 - [x] Responsive footer
     - [x] Resume
       - [x] Toasts
