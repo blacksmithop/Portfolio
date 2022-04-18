@@ -11,16 +11,17 @@
  `<head>` - Libraries, meta tags and custom css/js
 - [x] Favicon, meta description, crawlers etc.
   
-`<navbar>` - Navigation, Dark-mode, Avatar
+`<navbar>` - Navigation, Avatar
   - [x] Responsive navbar
     - [x] Tooltips
     - [x] Link to section / open accordion
     - [x] Styled avatar
       - [x] Dropdown menu direction based on screen size
       - [ ] Hover effect
-- [x] Dark mode 
+`<darkmode>` - Dark mode with toggle
   - [x] Responsive icons
-  - [x] Implemented in js
+  - [x] Js implementation (toggling classes)
+  - [ ] Css implementation (switch stylesheets with toggle)
   - [ ] Toggle based on system preference
 
 `<app-body>` - The portfolio content
@@ -46,6 +47,9 @@
 
 - [x] Assets
   - [ ] Compress `.webp` files (if possible)
+- [x] Cosmetic
+  - [ ] Add spacing before first letter of certain tags i.e icon and text 
+  - [ ] Fix card delete for cards (new)
 
 ---
 ## Fixes

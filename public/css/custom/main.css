@@ -1,38 +1,4 @@
 /* css for body and content tags as well as dark mode */
-
-body {
-    width: 100%;
-    height: 100%;
-}
-
-.app-body {
-    position: relative;
-    height: 80vh;
-    width: 100vw;
-    padding: 10px 10px 10px 0px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-div.darkmode {
-    display: inline-block;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-body.dark .darkmode .light,
-body:not(.dark) .darkmode .dark {
-    display: none;
-}
-
-.dark {
-    background: black;
-}
-
-.light {
-    background: rgb(197, 194, 194);
-}
-
 /*columns*/
 .col:empty {
     display: none;
