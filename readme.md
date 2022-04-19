@@ -2,6 +2,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/blacksmithop/Portfolio?label=issues)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blacksmithop/Portfolio?color=green&label=issues)
 ![Website](https://img.shields.io/website?down_message=Down&label=Website&up_message=Up&url=https%3A%2F%2Fblacksmithop.github.io%2FPortfolio%2F)
+[![Publish](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-folder.yml/badge.svg)](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-folder.yml)
 
 | [Website](https://blacksmithop.github.io/Portfolio/) |
 | ---------------------------------------------------- |
