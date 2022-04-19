@@ -230,6 +230,14 @@ readers do not read off random characters that represent icons */
     content: "\f420";
 }
 
+.fa-bars::before {
+    content: "\f0c9";
+}
+
+.fa-bolt::before {
+    content: "\f0e7";
+}
+
 .fa-codepen:before {
     content: "\f1cb";
 }
@@ -248,6 +256,10 @@ readers do not read off random characters that represent icons */
 
 .fa-js:before {
     content: "\f3b8";
+}
+
+.fa-markdown:before {
+    content: "\f60f";
 }
 
 .fa-medium:before {
