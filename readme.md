@@ -18,12 +18,13 @@
 ## Features 
 #### CI/CD
 - [x] Built from `main` (./public) to `gh-pages` by [action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
+- [x] Automatic release when a tag is created
+- [ ] Minify workflow (css & js)
 
 #### SaSS
 - [x] No more bulky css files! Compile only what you use.
   - [x] Purge unused classes
-    - [ ] Created config to automate sass compilation and purging
-    - [ ] Whitelist some classes
+    - [ ] Created action/config to automate sass compile & purge with class whitelist
 
 > Source files are not included, get them from [Fontawesomse](https://fontawesome.com/download) and [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/download/)
 
