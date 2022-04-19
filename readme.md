@@ -21,7 +21,8 @@
 
 #### SaSS
 - [x] No more bulky css files! Compile only what you use.
-  - [ ] Purge unused classes
+  - [x] Purge unused classes
+    - [ ] Created config to automate sass compilation and purging
 > Source files are not included, get them from [Fontawesomse](https://fontawesome.com/download) and [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/download/)
 
 #### Website:

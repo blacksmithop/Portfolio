@@ -1,1 +1,8 @@
-_site
+node_modules
+
+public/css/bootstrap
+public/css/fontawesome
+
+src
+
+
