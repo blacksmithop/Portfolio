@@ -2,6 +2,7 @@ node_modules
 
 public/css/bootstrap
 public/css/fontawesome
+public/css/compiled
 
 src
 
