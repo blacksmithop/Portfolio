@@ -19,6 +19,11 @@
 #### CI/CD
 - [x] Built from `main` (./public) to `gh-pages` by [action](https://github.com/blacksmithop/Portfolio/actions/workflows/publish-from-public.yml)
 
+#### SaSS
+- [x] No more bulky css files! Compile only what you use.
+  - [ ] Purge unused classes
+> Source files are not included, get them from [Fontawesomse](https://fontawesome.com/download) and [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/download/)
+
 #### Website:
 ##### :tophat: `<head>` ```Libraries, meta, ogp & custom css/js```
 - [x] Favicon, meta description, crawlers etc.
@@ -83,7 +88,8 @@
 * Dynamically added cards
 * Moved render blocking tags to the bottom
 * Dynamic modal creation (wip)
-
+* Pug and Sass (WIP)
+  
 ---
 ## Pointers
 1) Keep it simple, keep it fast.

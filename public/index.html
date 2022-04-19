@@ -121,31 +121,33 @@
     </style>
 
     <!--Load from disk-->
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
-    <!--Fontawesome-->
-    <link href="./css/fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/compiled/bootstrap.css" />
+    <link rel="stylesheet" href="./css/compiled/font-awesome.css" />
+
 </head>
 
 <body class="light">
     <!--navbar-->
     <nav class="navbar position-relative navbar-expand-md navbar-dark bg-dark text-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./">Portfolio</a>
+            <a class="navbar-brand" href="javascript:;" target="_parent">Portfolio</a>
             <div class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
             </div>
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0" style="cursor: pointer;">
                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout" aria-expanded="true" aria-controls="flush-collapseAbout">
-                        <a class="nav-link icon home text-light" title="A little about me" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6"> About
+                        <a class="nav-link text-light" title="A little about me" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-address-card"></i> About
                         </a>
                     </li>
                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects" aria-expanded="true" aria-controls="flush-collapseProjects">
-                        <a class="nav-link icon keyboard text-light" title="Projects I have done" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6"> Projects
+                        <a class="nav-link text-light" title="Projects I have done" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-diagram-project"></i> Projects
                         </a>
                     </li>
                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseStack" aria-expanded="true" aria-controls="flush-collapseStack">
-                        <a class="nav-link icon stack text-light" title="Techonologies I have used" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6"> Stack</a>
+                        <a class="nav-link text-light" title="Techonologies I have used" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-laptop-code"></i> Stack</a>
                     </li>
                     <li class="nav-item">
                         <div class="darkmode" title="Toggle dark / light mode" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom">
@@ -299,8 +301,8 @@
                 <div id="resumeToast" class="toast bg-black text-white w-100 h-25" role="alert" aria-live="assertive" aria-atomic="true" style="border-style: solid;border-radius: 25px;">
                     <div class="toast-body fs-6">
                         <div class="btn-group">
-                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" rel="external" target="_blank" type="button" class="btn text-white icon see"> View</a>
-                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button" target="_blank" type="button" class="btn text-white icon resume"> Download</a>
+                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" rel="external" target="_blank" type="button" class="btn text-white"><i class="fa-solid fa-eye"></i> View</a>
+                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button" target="_blank" type="button" class="btn text-white"><i class="fa-solid fa-cloud-arrow-down"></i> Download</a>
                             <div type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></div>
                         </div>
                     </div>
@@ -309,10 +311,10 @@
             <ul class="nav justify-content-center border-bottom">
                 <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" rel="author" target="_blank" class="nav-link link-light fs-6">Source</a></li>
                 <li class="nav-item"><a class="nav-link link-light fs-6">Contact</a></li>
-                <li class="nav-item"><a class="nav-link link-light fs-6" href="#" title="Click to see" id="resumeToastBtn">Resume</a>
+                <li class="nav-item"><a class="nav-link link-light fs-6" href="javascript:;" target="_parent" id="resumeToastBtn">Resume</a>
                 </li>
             </ul>
-            <p class="icon copyright text-center nav-link link-light fs-5"> Abhinav</p>
+            <p class="text-center nav-link link-light fs-5"><i class="fa-solid fa-copyright"></i> Abhinav</p>
         </footer>
         <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
         <script src="./js/custom/index.js" crossorigin="anonymous"></script>
