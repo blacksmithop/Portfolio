@@ -1,4 +1,4 @@
-name: Publish
+name: Minify & Publish
 # publish contents of ./public directory
 on:
   # only for the main branch
@@ -16,6 +16,12 @@ jobs:
     steps:
       # Checks-out under $GITHUB_WORKSPACE so job has access
       - uses: actions/checkout@v3
+
+      - name: Minify
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Minify css & js"
+          branch: ${{ github.ref }}
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
