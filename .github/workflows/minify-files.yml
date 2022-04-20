@@ -2,6 +2,7 @@ name: Minify Workflow
 on:
   push:
     branches: [gh-pages]
+  workflow_dispatch:
 
 jobs:
   build:
