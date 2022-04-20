@@ -3,9 +3,7 @@ node_modules
 
 public/assets/css/bootstrap/
 public/assets/css/fontawesome/
-public/assets/css/compiled/
-public/assets/css/sass/.*css
-
+*.css.map
 src
 
 
