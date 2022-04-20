@@ -9,7 +9,7 @@
 | [Website](https://blacksmithop.github.io/Portfolio/) |
 | ---------------------------------------------------- |
 
-As in [gh-pages](https://github.com/blacksmithop/Portfolio/tree/gh-pages)
+Source at [gh-pages](https://github.com/blacksmithop/Portfolio/tree/gh-pages)
 
 
 ---
