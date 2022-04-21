@@ -1,9 +1,14 @@
 .gitignore
-node_modules
 
 public/assets/css/bootstrap/
 public/assets/css/fontawesome/
 *.css.map
+
 src
+pages
+
+node_modules
+package-lock.json
+package.json
 
 

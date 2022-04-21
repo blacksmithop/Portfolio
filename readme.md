@@ -44,11 +44,11 @@ Source at [gh-pages](https://github.com/blacksmithop/Portfolio/tree/gh-pages)
     - [ ] Hover effect
 
 ##### :last_quarter_moon: `<darkmode>` ```Dark mode with toggle```
-- [x] Responsive icons
+- [x] Styled toggle
 - [x] Implementation 
-  - [x] class toggle in js
-  - [ ] toggle as per system preference
-  - [ ] css only, two stylesheets
+  - [x] Class toggle in js
+    - [ ] toggle as per system preference
+  - [ ] Sass theme
 
 ##### :package: `<app-body>` ```The content```
 - [x] Content in sections
