@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <!--meta-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <!-- HTML Meta Tags -->
+    <title>Portfolio</title>
+    <meta name="description" content="Abhinav KM's Portfolio website">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://blacksmithop.github.io/Portfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Abhinav KM's Portfolio website">
+    <meta property="og:image" content="https://i.ibb.co/3F04VBk/Image.png">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="blacksmithop.github.io">
+    <meta property="twitter:url" content="https://blacksmithop.github.io/Portfolio/">
+    <meta name="twitter:title" content="Portfolio">
+    <meta name="twitter:description" content="Abhinav KM's Portfolio website">
+    <meta name="twitter:image" content="https://i.ibb.co/3F04VBk/Image.png">
+    <!--core css-->
+    <link rel="stylesheet" href="./assets/css/custom/styles.min.css" />
+    <!--vendor-->
+    <link rel="stylesheet" href="./assets/css/custom/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/custom/font-awesome.min.css" />
+</head>
+
+<body class="light">
+    <!--navbar-->
+    <nav class="navbar position-relative navbar-expand-md navbar-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:;" target="_parent">Portfolio</a>
+            <div class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span> </div>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0" style="cursor: pointer;">
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout" aria-expanded="true" aria-controls="flush-collapseAbout">
+                        <a class="nav-link text-light" title="A little about me" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-address-card"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects" aria-expanded="true" aria-controls="flush-collapseProjects">
+                        <a class="nav-link text-light" title="Projects I have done" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-diagram-project"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#flush-collapseStack" aria-expanded="true" aria-controls="flush-collapseStack">
+                        <a class="nav-link text-light" title="Techonologies I have used" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom" data-bs-custom-class="fs-6">
+                            <i class="fa-solid fa-laptop-code"></i> Stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="darkmode" title="Toggle dark / light mode" data-bs-toggle="tooltip" data-trigger="hover" data-bs-placement="bottom">
+                            <div class="fa-solid fa-moon visible"></div>
+                            <div class="fa-solid fa-sun visually-hidden"></div>
+                        </div>
+                    </li>
+                </ul>
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <div class="nav-item dropdown text-end">
+                            <figure id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./assets/img/avatar.svg" alt="blaksmithop" width="50" height="50" class="rounded-circle bg-white">
+                            </figure>
+                            <ul class="dropdown-menu dropdown-menu-start dropdown-menu-sm-end dropdown-menu-dark text-small" aria-labelledby="dropdownAvatar">
+                                <li><a class="dropdown-item" rel="external" target="_blank" href="https://angstycoder101.medium.com/">
+                                        Medium <i class="fa-brands fa-medium"></i>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" rel="external" target="_blank" href="https://www.codewars.com/users/blacksmithop"> Codewars <i
+                                            class="fa-solid fa-code"></i>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" rel="external" target="_blank" href="https://codepen.io/blacksmithop">
+                                        Codepen <i class="fa-brands fa-codepen"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Content-->
+    <div class="app-body">
+        <ul class="list-group border-dark bg-dark" id="#accordionFlush" style="border-width: 9px;">
+            <!--about-->
+            <li class="list-group-item" style="background-color: inherit;">
+                <div class="accordion accordion-flush" id="flush-headingOne">
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success fs-4 bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout" aria-expanded="true" aria-controls="flush-collapseAbout">About</div>
+                </div>
+                <div id="flush-collapseAbout" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body border-dark">
+                        <div class="container-fluid about-me">
+                            <p class="h1 text-light">Hello!</p>
+                            <p class="lead text-light fs-5">I am <kbd>Abhinav KM</kbd> a Software Developer based in
+                                <code>India</code>. I enjoy creating applications that are intuitive and easy to use. I'm currently working on my
+                                <code>Portfolio website</code>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--projects-->
+            <li class=" list-group-item" style="background-color: inherit;">
+                <div class="accordion accordion-flush" id="flush-headingTwo">
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success collapsed fs-4 bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseProjects" aria-expanded="false" aria-controls="flush-collapseProjects">Projects</div>
+                </div>
+                <div id="flush-collapseProjects" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body border-dark">
+                        <div class="accordion-card row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-3 g-4 pt-2">
+                            <div class="col">
+                                <div class="card border-success border-2 mb-3 text-dark bg-light" style="border-style:solid;border-radius:25px;width: fit-content;">
+                                    <div class="card-header fs-5 bg-transparent border-success border-2">
+                                        <i class=""></i>
+                                        <span class="fa-pull-right close-icon text-danger"><i
+                                                class="fa fa-times"></i></span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text"></p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-success border-2">
+                                        <div class="btn btn-dark text-light">
+                                            <a class="text-light" href="" target="_blank">Source <i
+                                                    class="fa-solid fa-code-fork"></i>
+                                            </a>
+                                        </div>
+                                        <div class="btn btn-dark text-light" data-bs-toggle="modal">
+                                            Preview <i class="fa-solid fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </li>
+            <!--stack-->
+            <li class="list-group-item" style="background-color: inherit;">
+                <div class="accordion accordion-flush" id="flush-headingThree">
+                    <div class="accordion-button border-bottom border-4 rounded-3 border-success collapsed fs-4 bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseStack" aria-expanded="false" aria-controls="flush-collapseStack">Stack</div>
+                </div>
+                <div id="flush-collapseStack" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body border-dark">
+                        <div class="container-fluid">
+                            <div class="row row-cols-6 row-cols-lg-6 
+                            row-cols-md-4 row-cols-sm-3 g-4">
+                                <div class="col">
+                                    <span style="font-size: 48px; color: green;">
+                                        <i class="fa-brands fa-python"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: gold;">
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="text-danger fa-brands fa-angular"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: darkorange">
+                                        <i class="fa-brands fa-html5"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: dodgerblue">
+                                        <i class="fa-brands fa-css3-alt"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="fa-brands fa-js text-warning"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px; color: green">
+                                        <i class="fa-brands fa-git"></i>
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <span style="font-size: 48px;">
+                                        <i class="fa-solid fa-database text-danger"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <!--footer-->
+        <footer class="fixed-bottom bg-dark text-light">
+            <!--toast-->
+            <div class="position-fixed">
+                <div id="resumeToast" class="toast bg-black text-white w-100 h-25" role="alert" aria-live="assertive" aria-atomic="true" style="border-style: solid;border-radius: 25px;">
+                    <div class="toast-body fs-6">
+                        <div class="btn-group">
+                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" rel="external" target="_blank" type="button" class="btn text-white"><i class="fa-solid fa-eye"></i> View</a>
+                            <a href="./assets/pdf/Resume_AbhinavKM.pdf" download="Resume_AbhinavKM.pdf" type="button" target="_blank" type="button" class="btn text-white"><i class="fa-solid fa-cloud-arrow-down"></i> Download</a>
+                            <div type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav justify-content-center border-bottom">
+                <li class="nav-item"><a href="https://github.com/blacksmithop/Portfolio" rel="author" target="_blank" class="nav-link link-light fs-6">Source</a></li>
+                <li class="nav-item"><a class="nav-link link-light fs-6">Contact</a></li>
+                <li class="nav-item"><a class="nav-link link-light fs-6" href="javascript:;" target="_parent" id="resumeToastBtn">Resume</a>
+                </li>
+            </ul>
+            <p class="text-center nav-link link-light fs-5"><i class="fa-solid fa-copyright"></i> Abhinav</p>
+        </footer>
+        <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/custom/index.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

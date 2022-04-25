@@ -1,0 +1,143 @@
+[
+    {
+        "category": {
+            "name": "Angular",
+            "icon": "fa-brands fa-angular text-danger"
+        },
+        "header": "Library Catalogue",
+        "description": "Add, update and remove books and authors from the library catalogue using authorized <code>CRUD</code> options. <code>MEAN</code> and responsive it is built using the bootstrap framework. ",
+        "url": "https://github.com/blacksmithop/AngularLibraryApp",
+        "preview": {
+            "src": "",
+            "id": "catalogueModal"
+        }
+    },
+    {
+        "category": {
+            "name": "Node.js",
+            "icon": "fa-brands fa-node-js text-success"
+        },
+        "header": "CRUD Api",
+        "description": "Node.js app to handle <code>CRUD</code> operations. Data stored in a mongoose instance",
+        "url": "https://github.com/blacksmithop/AngularLibraryBackend",
+        "preview": null
+    },
+    {
+        "category": {
+            "name": "Angular",
+            "icon": "fa-brands fa-angular text-danger"
+        },
+        "header": "Chatroom Client",
+        "description": "<code>MEAN</code> stack chatroom with chat history, media support, rooms and personal messaging powered by sockets.",
+        "url": "https://github.com/blacksmithop/CantTalkBusy",
+        "preview": {
+            "src": "",
+            "id": "chatroomModal"
+        }
+    },
+    {
+        "category": {
+            "name": "Sockets",
+            "icon": "fa-solid fa-bolt text-warning"
+        },
+        "header": "Server",
+        "description": "Node.js server that handles client requests. Built with socket.io and powered by <code>express.js</code>.",
+        "url": "https://github.com/blacksmithop/CantTalkBusy",
+        "preview": null
+    },
+    {
+        "category": {
+            "name": "HTML5",
+            "icon": "fa-brands fa-html5 text-primary"
+        },
+        "header": "Todo List",
+        "description": "Stay on track with a todo list. Built in html5 and powered by <code>jQuery</code>. Add new tasks, mark them as complete and remove obsolete tasks.",
+        "url": "https://gitlab.com/blacksmithop/full-stack-certification/-/tree/master/public/pages/todo",
+        "preview": {
+            "src": "",
+            "id": "todoModal"
+        }
+    },
+    {
+        "category": {
+            "name": "FastAPI",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Weather",
+        "description": "Visualises the detailed weather forecast provided by openweathermap, built in python using <code>FastAPI</code>.",
+        "url": "https://github.com/blacksmithop/Seasonally",
+        "preview": {
+            "src": "",
+            "id": "weatherModal"
+        }
+    },
+    {
+        "category": {
+            "name": "Pygame",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Snake",
+        "description": "The classic game of Snake built in <code>Pygame</code>.",
+        "url": "https://gitlab.com/blacksmithop/snek",
+        "preview": {
+            "src": "snakeModal",
+            "id": ""
+        }
+    },
+    {
+        "category": {
+            "name": "Pillow",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Imgen",
+        "description": "Image manipulation api service built in <code>aiohttp</code> and powered by <code>Pillow</code>.",
+        "url": "https://github.com/blacksmithop/imgen",
+        "preview": {
+            "src": "",
+            "id": "imageModal"
+        }
+    },
+    {
+        "category": {
+            "name": "websockets",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Bot",
+        "description": "A <code>sockets</code> bot to manage lobbies in the social deduction game Mafia.",
+        "url": "https://github.com/blacksmithop/mafiaggbot",
+        "preview": null
+    },
+    {
+        "category": {
+            "name": "MkDocs",
+            "icon": "fa-brands fa-markdown text-warning"
+        },
+        "header": "API Documentation",
+        "description": "Responsive <code>markdown</code> friendly documentation for the mafia.gg api.",
+        "url": "https://blacksmithop.github.io/MafiaggBot/",
+        "preview": null
+    },
+    {
+        "category": {
+            "name": "Webscraping",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Extract & create metadata",
+        "description": "Get <code>metadata</code> for your favorite light novel from verified sources.",
+        "url": "https://bitbucket.org/BlackSmithOP/novelmetadata/src/main/",
+        "preview": {
+            "src": "",
+            "id": "metadataModal"
+        }
+    },
+    {
+        "category": {
+            "name": "Dataset",
+            "icon": "fa-brands fa-python text-success"
+        },
+        "header": "Top tech queries",
+        "description": "Dataset generation (<code>web scraping</code>) for an NLP CLI tool. Command suggestions are obtained from popular stack sites such as StackOverflow, AskUbuntu, etc. ",
+        "url": "https://github.com/blacksmithop/DeepLI",
+        "preview": null
+    }
+]
